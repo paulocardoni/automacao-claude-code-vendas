@@ -1,0 +1,25 @@
+﻿# Formação Agêntica
+
+> Formação prática para gestores de tráfego pago aprenderem automação com Claude Code e Inteligência Artificial.
+
+## Produto principal
+
+- **Automação com Claude Code para Gestores de Tráfego**
+- Aprenda a automatizar relatórios, análises e campanhas de mídia paga
+- Economize 12h/semana sem precisar saber programar
+- Curso online com acesso imediato
+- Plataforma: Hotmart
+- URL: https://formacaoagentica.com.br
+
+## Blog
+
+- Revolução dos Agentes de IA: https://formacaoagentica.com.br/blog/revolucao-agentes-ia
+- Claude Code para Automação de Ads: https://formacaoagentica.com.br/blog/claude-code-automacao-ads
+- Guia GEO 2026: https://formacaoagentica.com.br/blog/guia-geo-2026
+- Analytics Conversacional 2026: https://formacaoagentica.com.br/blog/analytics-conversacional-2026
+- Elevação de IA: https://formacaoagentica.com.br/blog/elevacao-ia-conteudo-citado
+
+## Contato
+
+- Site: https://formacaoagentica.com.br
+- Autor: Paulo Cardoni
