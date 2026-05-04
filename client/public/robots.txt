@@ -6,17 +6,17 @@ Disallow: /admin/
 Disallow: /private/
 
 # Sitemap
-Sitemap: https://automacao-claude-code-vendas.vercel.app/sitemap.xml
+Sitemap: https://formacaoagentica.com.br/sitemap.xml
 
-# Crawl delay (opcional)
+# Crawl delay
 Crawl-delay: 1
 
-# Specific rules for Googlebot
+# Googlebot
 User-agent: Googlebot
 Allow: /
 Crawl-delay: 0
 
-# Specific rules for Bingbot
+# Bingbot
 User-agent: Bingbot
 Allow: /
 Crawl-delay: 1
@@ -35,4 +35,10 @@ User-agent: anthropic-ai
 Allow: /
 
 User-agent: Claude-Web
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: cohere-ai
 Allow: /
