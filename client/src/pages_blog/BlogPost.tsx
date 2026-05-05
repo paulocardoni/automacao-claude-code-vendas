@@ -12,7 +12,7 @@ export default function BlogPost() {
   useEffect(() => {
     // Update page title and meta tags for SEO
     if (post) {
-      document.title = `${post.title} | Blog FormaÃ§Ã£o AgÃªntica`;
+      document.title = `${post.title} | Blog Formação Agêntica`;
       
       // Update meta description
       const metaDescription = document.querySelector('meta[name="description"]');
@@ -45,7 +45,7 @@ export default function BlogPost() {
     return (
       <div className="min-h-screen bg-background flex items-center justify-center px-4">
         <div className="text-center">
-          <h1 className="text-2xl sm:text-4xl font-bold mb-4">Post nÃ£o encontrado</h1>
+          <h1 className="text-2xl sm:text-4xl font-bold mb-4">Post não encontrado</h1>
           <Link href="/blog">
             <a className="text-accent hover:underline flex items-center gap-2 justify-center text-sm sm:text-base">
               <ChevronLeft size={20} /> Voltar ao blog
@@ -73,7 +73,7 @@ export default function BlogPost() {
           },
           "publisher": {
             "@type": "Organization",
-            "name": "FormaÃ§Ã£o AgÃªntica",
+            "name": "Formação Agêntica",
             "logo": "https://formacaoagentica.com.br/favicon.ico"
           }
         }`}
@@ -84,7 +84,7 @@ export default function BlogPost() {
         <div className="container py-3 sm:py-4 flex items-center justify-between">
           <Link href="/blog">
             <a className="text-lg sm:text-2xl font-bold accent-text font-mono">
-              FORMAÃ‡ÃƒO AGÃŠNTICA
+              FORMAÇÃO AGÊNTICA
             </a>
           </Link>
           <Link href="/blog">
@@ -179,7 +179,7 @@ export default function BlogPost() {
               <div>
                 <h3 className="text-lg sm:text-xl font-bold mb-2">{post.author}</h3>
                 <p className="text-muted-foreground mb-3 sm:mb-4 text-sm sm:text-base leading-relaxed">
-                  Especialista em AutomaÃ§Ã£o AgÃªntica e Performance Digital. Transformando agÃªncias atravÃ©s de IA, Claude Code e estratÃ©gias GEO.
+                  Especialista em Automação Agêntica e Performance Digital. Transformando agências através de IA, Claude Code e estratégias GEO.
                 </p>
                 <a
                   href="https://formacaoagentica.com.br/"
@@ -187,7 +187,7 @@ export default function BlogPost() {
                   rel="noopener noreferrer"
                   className="text-accent hover:underline font-bold flex items-center gap-2 text-sm sm:text-base"
                 >
-                  ConheÃ§a a FormaÃ§Ã£o AgÃªntica <ArrowRight size={16} />
+                  Conheça a Formação Agêntica <ArrowRight size={16} />
                 </a>
               </div>
             </div>
@@ -252,7 +252,7 @@ export default function BlogPost() {
             Quer Aprender Mais?
           </h2>
           <p className="text-base sm:text-lg md:text-xl text-muted-foreground mb-6 sm:mb-8 leading-relaxed">
-            Acesse a <span className="text-accent font-bold">FormaÃ§Ã£o AgÃªntica</span> e domine as ferramentas que estÃ£o redefinindo o futuro do marketing digital.
+            Acesse a <span className="text-accent font-bold">Formação Agêntica</span> e domine as ferramentas que estão redefinindo o futuro do marketing digital.
           </p>
           <a
             href="https://formacaoagentica.com.br/"
@@ -260,7 +260,7 @@ export default function BlogPost() {
             rel="noopener noreferrer"
             className="inline-block px-6 sm:px-8 py-3 sm:py-4 bg-accent text-accent-foreground rounded-lg font-bold hover:shadow-lg hover:shadow-accent hover:shadow-opacity-50 transition-all duration-300 text-sm sm:text-base md:text-lg"
           >
-            Acessar FormaÃ§Ã£o AgÃªntica
+            Acessar Formação Agêntica
           </a>
         </div>
       </section>
@@ -270,9 +270,9 @@ export default function BlogPost() {
         <div className="container max-w-5xl mx-auto">
           <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 mb-6 sm:mb-8">
             <div>
-              <h4 className="font-bold text-accent mb-3 sm:mb-4 text-sm sm:text-base">FormaÃ§Ã£o AgÃªntica</h4>
+              <h4 className="font-bold text-accent mb-3 sm:mb-4 text-sm sm:text-base">Formação Agêntica</h4>
               <p className="text-muted-foreground text-xs sm:text-sm leading-relaxed">
-                Blog especializado em automaÃ§Ã£o com IA e estratÃ©gias GEO para agÃªncias de marketing.
+                Blog especializado em automação com IA e estratégias GEO para agências de marketing.
               </p>
             </div>
             <div>
@@ -328,7 +328,7 @@ export default function BlogPost() {
                 <Music size={24} />
               </a>
             </div>
-            <p className="text-center text-muted-foreground text-xs sm:text-sm">&copy; 2026 FormaÃ§Ã£o AgÃªntica. Todos os direitos reservados.</p>
+            <p className="text-center text-muted-foreground text-xs sm:text-sm">&copy; 2026 Formação Agêntica. Todos os direitos reservados.</p>
           </div>
         </div>
       </footer>

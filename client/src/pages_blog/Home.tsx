@@ -12,12 +12,12 @@ export default function Home() {
         {`{
           "@context": "https://schema.org",
           "@type": "Blog",
-          "name": "FormaÃ§Ã£o AgÃªntica - Blog",
-          "description": "Blog especializado em automaÃ§Ã£o com IA, Claude Code e estratÃ©gias GEO para agÃªncias de marketing",
+          "name": "Formação Agêntica - Blog",
+          "description": "Blog especializado em automação com IA, Claude Code e estratégias GEO para agências de marketing",
           "url": "https://formacaoagentica.com.br/blog",
           "publisher": {
             "@type": "Organization",
-            "name": "FormaÃ§Ã£o AgÃªntica",
+            "name": "Formação Agêntica",
             "logo": "https://formacaoagentica.com.br/favicon.ico"
           }
         }`}
@@ -28,7 +28,7 @@ export default function Home() {
         <div className="container py-3 sm:py-4 flex items-center justify-between">
           <Link href="/">
             <a className="text-lg sm:text-2xl font-bold accent-text font-mono">
-              FORMAÃ‡ÃƒO AGÃŠNTICA
+              FORMAÇÃO AGÊNTICA
             </a>
           </Link>
           <nav className="hidden md:flex gap-6 md:gap-8">
@@ -47,7 +47,7 @@ export default function Home() {
 
       {/* Hero Section - Compact for Mobile with Icon */}
       <section className="py-12 sm:py-16 md:py-24 bg-gradient-to-b from-card to-background px-4 sm:px-6 relative overflow-hidden">
-        {/* Ãcone decorativo laranja no canto superior esquerdo */}
+        {/* Ícone decorativo laranja no canto superior esquerdo */}
         <div className="absolute top-4 sm:top-6 md:top-8 left-4 sm:left-6 md:left-8 w-12 h-12 sm:w-16 sm:h-16 rounded-full bg-accent bg-opacity-20 border-2 border-accent flex items-center justify-center">
           <Zap className="text-accent" size={24} />
         </div>
@@ -60,7 +60,7 @@ export default function Home() {
           </div>
           
           <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 sm:mb-6 text-foreground leading-tight">
-            Trilha de notÃ­cias e aprendizado para profissionais e agÃªncias
+            Trilha de notícias e aprendizado para profissionais e agências
           </h1>
           
           
@@ -81,7 +81,7 @@ export default function Home() {
       <section className="py-6 sm:py-8 md:py-12 px-4 sm:px-6">
         <div className="container max-w-5xl mx-auto">
           <div className="mb-8 sm:mb-12">
-            <h2 className="text-2xl sm:text-4xl md:text-5xl font-bold mb-3 sm:mb-4">Ãšltimos Artigos</h2>
+            <h2 className="text-2xl sm:text-4xl md:text-5xl font-bold mb-3 sm:mb-4">Últimos Artigos</h2>
             <div className="w-12 sm:w-16 h-1 gradient-accent rounded-full"></div>
           </div>
 
@@ -153,10 +153,10 @@ export default function Home() {
       <section className="py-12 sm:py-16 md:py-20 bg-card border-t neon-border px-4 sm:px-6">
         <div className="container max-w-3xl mx-auto text-center">
           <h2 className="text-2xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 leading-tight">
-            Pronto para Automatizar sua AgÃªncia?
+            Pronto para Automatizar sua Agência?
           </h2>
           <p className="text-base sm:text-lg md:text-xl text-muted-foreground mb-6 sm:mb-8 leading-relaxed">
-            Acesse a <span className="text-accent font-bold">FormaÃ§Ã£o AgÃªntica</span> e aprenda como implementar automaÃ§Ã£o com IA em sua operaÃ§Ã£o.
+            Acesse a <span className="text-accent font-bold">Formação Agêntica</span> e aprenda como implementar automação com IA em sua operação.
           </p>
           <a
             href="https://formacaoagentica.com.br/"
@@ -164,7 +164,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="inline-block px-6 sm:px-8 py-3 sm:py-4 bg-accent text-accent-foreground rounded-lg font-bold hover:shadow-lg hover:shadow-accent hover:shadow-opacity-50 transition-all duration-300 text-sm sm:text-base md:text-lg"
           >
-            Acessar FormaÃ§Ã£o AgÃªntica
+            Acessar Formação Agêntica
           </a>
         </div>
       </section>
@@ -174,9 +174,9 @@ export default function Home() {
         <div className="container max-w-5xl mx-auto">
           <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 mb-6 sm:mb-8">
             <div>
-              <h4 className="font-bold text-accent mb-3 sm:mb-4 text-sm sm:text-base">FormaÃ§Ã£o AgÃªntica</h4>
+              <h4 className="font-bold text-accent mb-3 sm:mb-4 text-sm sm:text-base">Formação Agêntica</h4>
               <p className="text-muted-foreground text-xs sm:text-sm leading-relaxed">
-                Blog especializado em automaÃ§Ã£o com IA e estratÃ©gias GEO para agÃªncias de marketing.
+                Blog especializado em automação com IA e estratégias GEO para agências de marketing.
               </p>
             </div>
             <div>
@@ -230,7 +230,7 @@ export default function Home() {
                 <Music size={24} />
               </a>
             </div>
-            <p className="text-center text-muted-foreground text-xs sm:text-sm">&copy; 2026 FormaÃ§Ã£o AgÃªntica. Todos os direitos reservados.</p>
+            <p className="text-center text-muted-foreground text-xs sm:text-sm">&copy; 2026 Formação Agêntica. Todos os direitos reservados.</p>
           </div>
         </div>
       </footer>
