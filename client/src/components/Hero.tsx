@@ -21,11 +21,11 @@ export default function Hero() {
             </div>
 
             <h1 className="text-xl sm:text-3xl md:text-5xl lg:text-6xl font-bold mb-2 sm:mb-3 leading-tight" style={{ fontFamily: "'Poppins', sans-serif" }}>
-              Automatize seu Google Ads e ganhe <span className="text-orange-400">10 horas livres</span> por semana
+              Como gestores de tráfego estão eliminando <span className="text-orange-400">12h de trabalho manual</span> por semana — sem saber programar
             </h1>
 
             <p className="text-xs sm:text-base md:text-lg text-gray-300 mb-3 sm:mb-4 leading-relaxed">
-              Com o Claude Code, você executa em segundos o que levaria horas de trabalho manual. Sem programação, sem complicação.
+              Relatórios automáticos, análises de campanhas, otimizações em lote. Tudo que você faz no braço hoje, o Claude Code faz por você — em minutos.
             </p>
 
             {/* CTA Button */}
@@ -36,7 +36,7 @@ export default function Hero() {
                   className="w-full bg-orange-500 hover:bg-orange-600 text-white font-bold text-xs sm:text-base md:text-lg px-3 sm:px-6 md:px-8 py-3 sm:py-4 md:py-6 rounded-lg animate-glow"
                 >
                   <Zap className="mr-2 h-3 sm:h-4 w-3 sm:w-4" />
-                  QUERO AUTOMATIZAR
+                  QUERO ECONOMIZAR 12H/SEMANA →
                 </Button>
               </a>
             </div>
@@ -50,7 +50,7 @@ export default function Hero() {
             </div>
 
             {/* Trust Icons */}
-            <div className="hidden sm:flex flex-col gap-2 sm:gap-3 text-xs sm:text-sm text-gray-400">
+            <div className="flex flex-col gap-2 sm:gap-3 text-xs sm:text-sm text-gray-400">
               <div className="flex items-center gap-2">
                 <Lock className="h-3 w-3 sm:h-4 sm:w-4 text-green-500 flex-shrink-0" />
                 <span>7 dias de garantia</span>
@@ -62,7 +62,7 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Right: Video Placeholder */}
+          {/* Right: Video */}
           <div className="animate-fade-in order-1 md:order-2">
             <div className="relative rounded-lg sm:rounded-xl overflow-hidden shadow-2xl border border-orange-500/20">
               <div className="aspect-video bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center">
