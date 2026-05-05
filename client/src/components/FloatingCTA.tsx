@@ -1,54 +1,57 @@
 import { useEffect, useState } from "react";
-import { Button } from "@/components/ui/button";
-import { Zap, X } from "lucide-react";
+import { Zap, Shield } from "lucide-react";
 
 const HOTMART_URL = "https://pay.hotmart.com/P105267357Y?off=skjyhsxd&hotfeature=51";
 
-/**
- * FloatingCTA Component
- * Botão flutuante que acompanha o usuário enquanto desce a página
- * Aparece após scroll de 500px
- * Design: Orange com animação de entrada
- */
 export default function FloatingCTA() {
   const [isVisible, setIsVisible] = useState(false);
-  const [isDismissed, setIsDismissed] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      // Mostra o botão após 500px de scroll
-      if (window.scrollY > 500 && !isDismissed) {
-        setIsVisible(true);
-      } else if (window.scrollY <= 500) {
-        setIsVisible(false);
-      }
+      setIsVisible(window.scrollY > 300);
     };
-
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [isDismissed]);
+  }, []);
 
-  if (!isVisible || isDismissed) return null;
+  if (!isVisible) return null;
 
   return (
-    <div className="fixed bottom-6 right-6 z-40 animate-slide-in-up">
-      <div className="flex flex-col gap-2">
-        <a href={HOTMART_URL} target="_blank" rel="noopener noreferrer" className="block">
-          <Button
-            size="lg"
-            className="bg-orange-500 hover:bg-orange-600 text-white font-bold text-sm sm:text-base px-4 sm:px-6 py-3 sm:py-4 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 animate-pulse-subtle"
+    <>
+      {/* Mobile sticky bar — sempre visível no rodapé */}
+      <div className="fixed bottom-0 left-0 right-0 z-50 sm:hidden">
+        <div className="bg-gray-950 border-t border-orange-500/40 px-4 py-3">
+          
+            href={HOTMART_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block w-full"
           >
-            <Zap className="mr-2 h-4 w-4" />
-            Comprar Agora
-          </Button>
-        </a>
-        <button
-          onClick={() => setIsDismissed(true)}
-          className="text-xs text-gray-400 hover:text-gray-300 transition-colors text-center"
-        >
-          Fechar
-        </button>
+            <button className="w-full bg-orange-500 hover:bg-orange-600 active:scale-95 text-white font-bold text-sm py-3.5 rounded-lg flex items-center justify-center gap-2 transition-all duration-200">
+              <Zap className="h-4 w-4" />
+              COMPRAR POR R$42,90
+            </button>
+          </a>
+          <div className="flex items-center justify-center gap-1.5 mt-1.5">
+            <Shield className="h-3 w-3 text-green-400" />
+            <span className="text-xs text-green-400">7 dias de garantia total</span>
+          </div>
+        </div>
       </div>
-    </div>
+
+      {/* Desktop floating button — aparece no canto direito */}
+      <div className="hidden sm:block fixed bottom-6 right-6 z-50">
+        
+          href={HOTMART_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="bg-orange-500 hover:bg-orange-600 active:scale-95 text-white font-bold text-sm px-6 py-4 rounded-xl shadow-2xl flex items-center gap-2 transition-all duration-200 animate-bounce">
+            <Zap className="h-4 w-4" />
+            COMPRAR AGORA — R$42,90
+          </button>
+        </a>
+      </div>
+    </>
   );
 }
