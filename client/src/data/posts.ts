@@ -422,6 +422,79 @@ As Skills transformam o Claude de um "faz-tudo" genérico em um time de especial
     seoDescription: "Aprenda como criar e usar Claude Skills para transformar o Claude em um especialista sob medida para sua agência de performance marketing.",
     seoKeywords: ["Claude Skills", "automação marketing", "agências de performance", "IA para marketing", "Claude Code skills", "criador de habilidades"]
   }
+  ,
+  {
+    id: "9",
+    slug: "por-que-creditos-claude-acabam",
+    title: "Por que os Créditos do Claude Acabam? O Guia Definitivo para Economizar Tokens e Aumentar o ROI",
+    excerpt: "No Claude Code, cada interação consome tokens. O limite acaba porque o sistema carrega o histórico e as instruções em toda mensagem. A regra de ouro em 2026: use o /clear com frequência, mantenha arquivos enxutos e migre instruções para Skills.",
+    tldr: "No Claude Code, cada interação consome tokens (pedaços de texto). O limite acaba porque o sistema carrega o histórico e as instruções em toda mensagem. Para economizar, use o comando /clear com frequência, mantenha arquivos de configuração enxutos e migre instruções para Skills, que só gastam créditos quando realmente acionadas.",
+    content: `
+# Por que os Créditos do Claude Acabam? O Guia Definitivo para Economizar Tokens e Aumentar o ROI
+
+## O que são Tokens e a "Janela de Contexto"?
+
+Para entender por que seus créditos acabam, imagine que o Claude tem uma **Janela de Contexto**, que funciona como uma "memória de curto prazo". Tudo o que você escreve, as respostas da IA, os arquivos que ela lê e até as instruções de sistema ocupam espaço nessa janela.
+
+Um token é a unidade de medida: em média, **1 token equivale a 4 caracteres**. Se você envia um arquivo pesado ou tem uma conversa muito longa, a cada nova pergunta o Claude precisa "reler" todo esse contexto, gastando tokens repetidamente.
+
+## Por que os créditos acabam tão rápido?
+
+Existem três vilões principais do seu saldo:
+
+### 1. Histórico "Sujo"
+Se você está tentando resolver um problema de Meta Ads, mas a conversa começou falando de Google Ads, o Claude continua processando os dados antigos a cada mensagem.
+
+### 2. Arquivos CLAUDE.md Gigantes
+Este arquivo é lido no início de toda sessão. Se ele tiver mais de 500 linhas, você está "pagando pedágio" caro antes mesmo de começar a trabalhar.
+
+### 3. Muitos MCPs Ativos
+Conectar o Claude a muitas ferramentas externas (como Slack, HubSpot e Ads simultaneamente) consome cerca de **40% da memória de contexto** logo na partida.
+
+## 4 Práticas de Ouro para Poupar Tokens
+
+Como estrategista de growth, seu objetivo é o ROI. Gastar menos tokens significa fazer mais tarefas com o mesmo plano (Pro ou Max).
+
+### 1. Use o /clear Proativamente
+Terminou uma tarefa? Digite \`/clear\`. Isso limpa a memória e começa uma sessão do zero, sem o peso das conversas anteriores.
+
+### 2. O Poder do /compact
+Se você não quer perder o que foi feito, mas o contexto está cheio (acima de 70%), use o comando \`/compact\`. Ele resume a conversa em poucos tokens e libera espaço para o Claude continuar pensando com clareza.
+
+### 3. Transforme Regras em "Skills"
+Em vez de colocar todos os manuais da agência no \`CLAUDE.md\`, use o sistema de Skills. Enquanto os metadados de uma Skill gastam apenas **100 tokens** para serem carregados, o conteúdo completo só é "pago" se a IA entender que precisa daquela habilidade específica.
+
+### 4. Escolha o Modelo Certo com /model
+Nem toda tarefa precisa do "cérebro" mais caro (Opus). Para tarefas simples de organização ou rascunhos, use o **Haiku**, que é muito mais barato e rápido.
+
+## Dica de Autoridade: O Comando /context
+
+Sempre que sentir que o Claude está ficando "lento" ou confuso, use o comando \`/context\`. Ele mostra exatamente o que está consumindo seus tokens por categoria (mensagens, ferramentas, arquivos).
+
+Gerenciar tokens não é apenas sobre custo, é sobre **precisão**: quanto menos "ruído" na janela de contexto, menos a IA alucina e melhor é o resultado para sua agência.
+
+## FAQ
+
+**Quanto custa o Claude Code?**
+Ele exige uma assinatura Pro (US$ 20/mês) ou planos Max/Enterprise para uso intensivo de dados.
+
+**A IA gasta tokens dormindo?**
+Não. O consumo só ocorre durante o processamento de envios e respostas.
+
+---
+
+**Nota estratégica:** Este post utiliza o conceito de **Divulgação Progressiva**, explicando primeiro o conceito básico e depois aprofundando na técnica, o que ajuda na retenção do leitor e na autoridade orgânica (GEO) por responder diretamente a dúvidas comuns dos usuários.
+    `,
+    imageUrl: "https://formacaoagentica.com.br/blog-images/post9-tokens.png",
+    imageAlt: "Medidor de tokens do Claude Code: guia para economizar créditos e aumentar ROI",
+    category: "Tutorial",
+    author: "Formação Agêntica",
+    date: "2026-05-05",
+    readTime: 7,
+    tags: ["Claude Code", "tokens", "créditos", "ROI", "produtividade", "CLAUDE.md", "Skills"],
+    seoDescription: "Entenda por que os créditos do Claude Code acabam e aprenda 4 práticas para economizar tokens, reduzir custos e aumentar o ROI da sua agência.",
+    seoKeywords: ["tokens Claude", "créditos Claude Code", "economizar tokens", "ROI Claude", "CLAUDE.md", "Skills", "janela de contexto"]
+  }
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
