@@ -14,11 +14,11 @@ export default function Home() {
           "@type": "Blog",
           "name": "Formação Agêntica - Blog",
           "description": "Blog especializado em automação com IA, Claude Code e estratégias GEO para agências de marketing",
-          "url": "https://automacao-claude-code-vendas.vercel.app/blog",
+          "url": "https://formacaoagentica.com.br/blog",
           "publisher": {
             "@type": "Organization",
             "name": "Formação Agêntica",
-            "logo": "https://automacao-claude-code-vendas.vercel.app/favicon.ico"
+            "logo": "https://formacaoagentica.com.br/favicon.ico"
           }
         }`}
       </script>
@@ -35,7 +35,7 @@ export default function Home() {
             <a href="/blog" className="text-foreground hover:text-accent transition-colors text-sm">
               Blog
             </a>
-            <a href="https://automacao-claude-code-vendas.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-accent transition-colors text-sm">
+            <a href="https://formacaoagentica.com.br/" className="text-foreground hover:text-accent transition-colors text-sm">
               Curso
             </a>
             <a href="mailto:atendimento.claudetrafego@gmail.com" className="text-foreground hover:text-accent transition-colors text-sm">
@@ -45,9 +45,8 @@ export default function Home() {
         </div>
       </header>
 
-      {/* Hero Section - Compact for Mobile with Icon */}
+      {/* Hero Section */}
       <section className="py-12 sm:py-16 md:py-24 bg-gradient-to-b from-card to-background px-4 sm:px-6 relative overflow-hidden">
-        {/* Ícone decorativo laranja no canto superior esquerdo */}
         <div className="absolute top-4 sm:top-6 md:top-8 left-4 sm:left-6 md:left-8 w-12 h-12 sm:w-16 sm:h-16 rounded-full bg-accent bg-opacity-20 border-2 border-accent flex items-center justify-center">
           <Zap className="text-accent" size={24} />
         </div>
@@ -63,12 +62,9 @@ export default function Home() {
             Trilha de notícias e aprendizado para profissionais e agências
           </h1>
           
-          
           <div className="flex gap-3 sm:gap-4 justify-center flex-wrap">
-            <a
-              href="https://automacao-claude-code-vendas.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
+            
+              href="https://formacaoagentica.com.br/"
               className="px-6 sm:px-8 py-2.5 sm:py-3 bg-accent text-accent-foreground rounded-lg font-bold hover:shadow-lg hover:shadow-accent hover:shadow-opacity-50 transition-all duration-300 flex items-center gap-2 text-sm sm:text-base"
             >
               Conhecer o Curso <ChevronRight size={18} />
@@ -77,7 +73,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Posts Grid - Compact spacing */}
+      {/* Posts Grid */}
       <section className="py-6 sm:py-8 md:py-12 px-4 sm:px-6">
         <div className="container max-w-5xl mx-auto">
           <div className="mb-8 sm:mb-12">
@@ -86,11 +82,10 @@ export default function Home() {
           </div>
 
           <div className="grid gap-6 sm:gap-8 md:gap-10">
-            {posts.map((post, index) => (
+            {posts.map((post) => (
               <Link key={post.id} href={`/blog/${post.slug}`}>
                 <a className="post-card group block">
                   <div className="grid md:grid-cols-3 gap-4 sm:gap-6 md:gap-8 items-center">
-                    {/* Image */}
                     <div className="md:col-span-1 order-2 md:order-1">
                       <div className="relative overflow-hidden rounded-lg aspect-video bg-muted">
                         <img
@@ -103,7 +98,6 @@ export default function Home() {
                       </div>
                     </div>
 
-                    {/* Content */}
                     <div className="md:col-span-2 order-1 md:order-2">
                       <div className="flex flex-wrap items-center gap-2 sm:gap-3 mb-2 sm:mb-3">
                         <span className="px-2.5 sm:px-3 py-0.5 sm:py-1 bg-accent bg-opacity-10 text-accent rounded text-xs sm:text-sm font-mono font-bold">
@@ -131,7 +125,6 @@ export default function Home() {
                         Ler artigo <ChevronRight size={18} className="group-hover:translate-x-2 transition-transform" />
                       </div>
 
-                      {/* Tags */}
                       <div className="flex flex-wrap gap-2 mt-3 sm:mt-4">
                         {post.tags.slice(0, 3).map(tag => (
                           <span key={tag} className="text-xs text-muted-foreground flex items-center gap-1">
@@ -158,10 +151,8 @@ export default function Home() {
           <p className="text-base sm:text-lg md:text-xl text-muted-foreground mb-6 sm:mb-8 leading-relaxed">
             Acesse a <span className="text-accent font-bold">Formação Agêntica</span> e aprenda como implementar automação com IA em sua operação.
           </p>
-          <a
-            href="https://automacao-claude-code-vendas.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
+          
+            href="https://formacaoagentica.com.br/"
             className="inline-block px-6 sm:px-8 py-3 sm:py-4 bg-accent text-accent-foreground rounded-lg font-bold hover:shadow-lg hover:shadow-accent hover:shadow-opacity-50 transition-all duration-300 text-sm sm:text-base md:text-lg"
           >
             Acessar Formação Agêntica
@@ -188,7 +179,7 @@ export default function Home() {
                   </a>
                 </li>
                 <li>
-                  <a href="https://automacao-claude-code-vendas.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-accent transition-colors">
+                  <a href="https://formacaoagentica.com.br/" className="text-muted-foreground hover:text-accent transition-colors">
                     Curso
                   </a>
                 </li>

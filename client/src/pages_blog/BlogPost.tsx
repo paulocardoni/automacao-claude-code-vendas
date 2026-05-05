@@ -10,17 +10,14 @@ export default function BlogPost() {
   const relatedPosts = post ? getRelatedPosts(post.id) : [];
 
   useEffect(() => {
-    // Update page title and meta tags for SEO
     if (post) {
       document.title = `${post.title} | Blog Formação Agêntica`;
       
-      // Update meta description
       const metaDescription = document.querySelector('meta[name="description"]');
       if (metaDescription) {
         metaDescription.setAttribute('content', post.seoDescription);
       }
       
-      // Update OG tags for social sharing
       const ogTitle = document.querySelector('meta[property="og:title"]');
       if (ogTitle) {
         ogTitle.setAttribute('content', post.title);
@@ -36,7 +33,6 @@ export default function BlogPost() {
         ogImage.setAttribute('content', post.imageUrl);
       }
       
-      // Scroll to top
       window.scrollTo(0, 0);
     }
   }, [post]);
@@ -74,7 +70,7 @@ export default function BlogPost() {
           "publisher": {
             "@type": "Organization",
             "name": "Formação Agêntica",
-            "logo": "https://automacao-claude-code-vendas.vercel.app/favicon.ico"
+            "logo": "https://formacaoagentica.com.br/favicon.ico"
           }
         }`}
       </script>
@@ -95,7 +91,7 @@ export default function BlogPost() {
         </div>
       </header>
 
-      {/* Hero Image - Responsive */}
+      {/* Hero Image */}
       <section className="relative h-48 sm:h-64 md:h-96 lg:h-[500px] overflow-hidden">
         <img
           src={post.imageUrl}
@@ -109,7 +105,6 @@ export default function BlogPost() {
       {/* Article Content */}
       <article className="py-8 sm:py-12 md:py-16 lg:py-24 px-4 sm:px-6">
         <div className="container max-w-4xl mx-auto">
-          {/* Meta Information */}
           <div className="mb-6 sm:mb-8">
             <div className="flex flex-wrap items-center gap-2 sm:gap-3 md:gap-4 mb-4 sm:mb-6">
               <span className="px-3 sm:px-4 py-1.5 sm:py-2 bg-accent bg-opacity-10 text-accent rounded-full font-mono font-bold text-xs sm:text-sm">
@@ -133,12 +128,10 @@ export default function BlogPost() {
               </div>
             </div>
 
-            {/* Title */}
             <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 leading-tight">
               {post.title}
             </h1>
 
-            {/* TL;DR */}
             <div className="p-4 sm:p-6 bg-card border-l-4 border-accent rounded-lg mb-6 sm:mb-8">
               <p className="text-accent font-bold mb-2 text-xs sm:text-sm uppercase tracking-wider">TL;DR</p>
               <p className="text-base sm:text-lg text-foreground leading-relaxed">
@@ -146,7 +139,6 @@ export default function BlogPost() {
               </p>
             </div>
 
-            {/* Share Buttons */}
             <div className="flex items-center gap-3 sm:gap-4 pb-6 sm:pb-8 border-b neon-border">
               <span className="text-muted-foreground text-xs sm:text-sm">Compartilhar:</span>
               <button
@@ -167,7 +159,6 @@ export default function BlogPost() {
             </div>
           </div>
 
-          {/* Article Body */}
           <div className="prose prose-invert max-w-none mb-12 sm:mb-16 text-sm sm:text-base">
             <Streamdown>{post.content}</Streamdown>
           </div>
@@ -181,10 +172,8 @@ export default function BlogPost() {
                 <p className="text-muted-foreground mb-3 sm:mb-4 text-sm sm:text-base leading-relaxed">
                   Especialista em Automação Agêntica e Performance Digital. Transformando agências através de IA, Claude Code e estratégias GEO.
                 </p>
-                <a
-                  href="https://automacao-claude-code-vendas.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                
+                  href="https://formacaoagentica.com.br/"
                   className="text-accent hover:underline font-bold flex items-center gap-2 text-sm sm:text-base"
                 >
                   Conheça a Formação Agêntica <ArrowRight size={16} />
@@ -254,10 +243,8 @@ export default function BlogPost() {
           <p className="text-base sm:text-lg md:text-xl text-muted-foreground mb-6 sm:mb-8 leading-relaxed">
             Acesse a <span className="text-accent font-bold">Formação Agêntica</span> e domine as ferramentas que estão redefinindo o futuro do marketing digital.
           </p>
-          <a
-            href="https://automacao-claude-code-vendas.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
+          
+            href="https://formacaoagentica.com.br/"
             className="inline-block px-6 sm:px-8 py-3 sm:py-4 bg-accent text-accent-foreground rounded-lg font-bold hover:shadow-lg hover:shadow-accent hover:shadow-opacity-50 transition-all duration-300 text-sm sm:text-base md:text-lg"
           >
             Acessar Formação Agêntica
@@ -286,7 +273,7 @@ export default function BlogPost() {
                   </Link>
                 </li>
                 <li>
-                  <a href="https://automacao-claude-code-vendas.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-accent transition-colors">
+                  <a href="https://formacaoagentica.com.br/" className="text-muted-foreground hover:text-accent transition-colors">
                     Curso
                   </a>
                 </li>
