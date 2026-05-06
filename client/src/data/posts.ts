@@ -494,10 +494,8 @@ Não. O consumo só ocorre durante o processamento de envios e respostas.
     tags: ["Claude Code", "tokens", "créditos", "ROI", "produtividade", "CLAUDE.md", "Skills"],
     seoDescription: "Entenda por que os créditos do Claude Code acabam e aprenda 4 práticas para economizar tokens, reduzir custos e aumentar o ROI da sua agência.",
     seoKeywords: ["tokens Claude", "créditos Claude Code", "economizar tokens", "ROI Claude", "CLAUDE.md", "Skills", "janela de contexto"]
-  }
-,
+  },
   {
-  ,{
     id: "10",
     slug: "fim-da-tela-em-branco-carrosseis-claude-code",
     title: "O Fim da Tela em Branco: Como o Claude Code Faz Todos os Meus Carrosséis",
@@ -537,7 +535,7 @@ Sempre inclua Alt-text detalhados em seus carrosséis. As IAs de 2026 são multi
 - **Skills:** pacotes de instruções que dão superpoderes específicos à IA
 - **MCP:** padrão que conecta a IA com segurança a ferramentas externas como Figma e Google Ads
 - **Artifacts:** janela lateral no Claude para visualizar designs criados em tempo real
-    `,
+    \`,
     imageUrl: "/blog-images/post10-carrossel.png",
     imageAlt: "Fluxo do Claude Code transformando artigo em carrosséis para LinkedIn e Instagram",
     category: "Social Media",
@@ -548,7 +546,6 @@ Sempre inclua Alt-text detalhados em seus carrosséis. As IAs de 2026 são multi
     seoDescription: "Aprenda como o Claude Code usa Skills e MCP para transformar artigos em carrosséis prontos para LinkedIn e Instagram em segundos, sem designer.",
     seoKeywords: ["carrossel Claude Code", "automacao social media", "Skills IA", "MCP Figma"]
   }
-
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
