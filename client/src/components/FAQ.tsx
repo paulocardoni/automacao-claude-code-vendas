@@ -1,4 +1,4 @@
-import {
+﻿import {
   Accordion,
   AccordionContent,
   AccordionItem,
@@ -11,42 +11,42 @@ const faqs = [
   {
     id: "1",
     question: "Preciso saber programar para fazer o curso?",
-    answer: "Nao. Este curso foi criado por um gestor de trafego, para gestores de trafego. Voce recebe os comandos prontos — e aprender a usar o Claude Code e parte do conteudo. Se voce sabe abrir um terminal e copiar um texto, voce consegue.",
+    answer: "não. Este curso foi criado por um gestor de trafego, para gestores de trafego. Você recebe os comandos prontos — e aprender a usar o Claude Code e parte do conteudo. Se Você sabe abrir um terminal e copiar um texto, Você consegue.",
   },
   {
     id: "2",
     question: "Serve para iniciante em trafego pago?",
-    answer: "Nao. Voce precisa ja operar campanhas no dia a dia — seja Google Ads, Meta Ads ou ambos. O curso ensina a automatizar o que voce ja faz, nao a comecar do zero em midia paga.",
+    answer: "não. Você precisa ja operar campanhas no dia a dia — seja Google Ads, Meta Ads ou ambos. O curso ensina a automatizar o que Você ja faz, não a comecar do zero em midia paga.",
   },
   {
     id: "3",
     question: "O Google ou Meta podem banir minha conta por usar automacao?",
-    answer: "Nao. Usamos exclusivamente as APIs oficiais do Google e do Meta — as mesmas que ferramentas como Optmyzr e Adveronix usam. Voce nao viola nenhum termo de servico. Voce esta apenas automatizando o que ja pode fazer manualmente.",
+    answer: "não. Usamos exclusivamente as APIs oficiais do Google e do Meta — as mesmas que ferramentas como Optmyzr e Adveronix usam. Você não viola nenhum termo de serviço. Você esta apenas automatizando o que ja pode fazer manualmente.",
   },
   {
     id: "4",
     question: "Em quanto tempo vejo resultado?",
-    answer: "No primeiro modulo voce ja consegue rodar sua primeira automacao. Resultados praticos de economia de tempo aparecem na primeira semana. Impacto em performance de campanha varia conforme volume, mas gestores relatam de 2 a 4 semanas para sentir diferenca.",
+    answer: "No primeiro modulo Você ja consegue rodar sua primeira automacao. Resultados praticos de economia de tempo aparecem na primeira semana. Impacto em performance de campanha varia conforme volume, mas gestores relatam de 2 a 4 semanas para sentir diferenca.",
   },
   {
     id: "5",
-    question: "O acesso e vitalicio?",
+    question: "O acesso e vitalício?",
     answer: "Sim. Paga uma vez e o conteudo e seu para sempre. Sem mensalidade, sem renovacao, sem surpresa na fatura.",
   },
   {
     id: "6",
     question: "Tem suporte se eu travar em algo?",
-    answer: "Sim. Voce tem suporte por email por 30 dias apos a compra. O material foi estruturado para ser autoexplicativo, mas se travar em qualquer etapa, estou disponivel para ajudar.",
+    answer: "Sim. Você tem suporte por email por 30 dias apos a compra. O material foi estruturado para ser autoexplicativo, mas se travar em qualquer etapa, estou disponivel para ajudar.",
   },
   {
     id: "7",
-    question: "E se eu nao gostar?",
-    answer: "7 dias de garantia total sem perguntas. E politica da Hotmart — voce solicita o reembolso direto pela plataforma e recebe de volta. Sem burocracia, sem precisar justificar.",
+    question: "E se eu não gostar?",
+    answer: "7 dias de garantia total sem perguntas. E política da Hotmart — Você solicita o reembolso direto pela plataforma e recebe de volta. Sem burocracia, sem precisar justificar.",
   },
   {
     id: "8",
     question: "Por que o preco vai subir?",
-    answer: "Este e o preco de lancamento para os primeiros 100 alunos. Quando essas vagas acabarem, o valor passa para R$127,90 — que e o preco definitivo do curso. Nao e gatilho falso: e a forma que escolhi de recompensar quem entra cedo.",
+    answer: "Este e o preco de lançamento para os primeiros 100 alunos. Quando essas vagas acabarem, o valor passa para R$127,90 — que e o preco definitivo do curso. não e gatilho falso: e a forma que escolhi de recompensar quem entra cedo.",
   },
 ];
 
@@ -56,7 +56,7 @@ export default function FAQ() {
       <div className="max-w-3xl mx-auto">
         <div className="text-center mb-8 sm:mb-10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2" style={{ fontFamily: "'Poppins', sans-serif" }}>
-            Ainda tem <span className="text-orange-400">duvidas?</span>
+            Ainda tem <span className="text-orange-400">dúvidas?</span>
           </h2>
           <p className="text-sm text-gray-400">As perguntas que mais chegam antes da compra</p>
         </div>

@@ -1,4 +1,4 @@
-export default function TopBar() {
+﻿export default function TopBar() {
   const handleScroll = () => {
     const el = document.getElementById("pricing");
     if (el) el.scrollIntoView({ behavior: "smooth" });
@@ -12,7 +12,7 @@ export default function TopBar() {
       >
         <span>⚡</span>
         <span>
-          <span className="hidden sm:inline">Oferta de lancamento — </span>
+          <span className="hidden sm:inline">Oferta de lançamento — </span>
           <span className="font-bold">77 vagas por R$42,90</span>
           <span className="hidden sm:inline"> · depois sobe para R$127,90</span>
         </span>

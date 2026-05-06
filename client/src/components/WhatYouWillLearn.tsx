@@ -1,23 +1,23 @@
-import { CheckCircle2, Zap } from "lucide-react";
+﻿import { CheckCircle2, Zap } from "lucide-react";
 
 const HOTMART_URL = "https://pay.hotmart.com/P105267357Y?off=skjyhsxd&hotfeature=51";
 
 const learnings = [
   {
-    title: "Relatorios automaticos em minutos",
-    description: "O que voce faz em 3 horas no Excel, o Claude faz em 3 minutos. Dashboards de performance prontos para o cliente sem tocar numa planilha."
+    title: "Relatorios automáticos em minutos",
+    description: "O que Você faz em 3 horas no Excel, o Claude faz em 3 minutos. Dashboards de performance prontos para o cliente sem tocar numa planilha."
   },
   {
-    title: "Campanhas no piloto automatico",
+    title: "Campanhas no piloto automático",
     description: "Pausas, ajustes de lance e duplicacoes sem abrir o Ads Manager. Use MCP conectado direto nas APIs do Google e Meta."
   },
   {
-    title: "Paginas e ferramentas sem dev",
+    title: "páginas e ferramentas sem dev",
     description: "Crie landing pages, scripts e ferramentas internas com Claude Code. Sem contratar ninguem, sem esperar dias de aprovacao."
   },
   {
     title: "Auditoria de contas com IA",
-    description: "Detecte automaticamente onde o orcamento esta vazando — palavras-chave ineficientes, lances fora de meta, publicos saturados."
+    description: "Detecte automaticamente onde o orçamento esta vazando — palavras-chave ineficientes, lances fora de meta, publicos saturados."
   },
   {
     title: "Agentes rodando 24/7 na nuvem",
@@ -35,10 +35,10 @@ export default function WhatYouWillLearn() {
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-8 sm:mb-12">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3" style={{ fontFamily: "'Poppins', sans-serif" }}>
-            O que voce vai <span className="text-orange-400">conseguir fazer</span>
+            O que Você vai <span className="text-orange-400">conseguir fazer</span>
           </h2>
           <p className="text-sm sm:text-base text-gray-400 max-w-2xl mx-auto">
-            Nao e lista de aulas. E o que muda na sua rotina na semana que voce comecar.
+            não e lista de aulas. E o que muda na sua rotina na semana que Você começar.
           </p>
         </div>
 

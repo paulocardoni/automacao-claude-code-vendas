@@ -1,13 +1,13 @@
-import { CheckCircle } from "lucide-react";
+﻿import { CheckCircle } from "lucide-react";
 
 export default function ForWhom() {
   const items = [
-    "Voce passa horas montando relatorios que deveriam levar minutos",
-    "Voce depende de dev ou webdesigner para subir uma pagina — e espera dias",
-    "Voce sobe campanhas no braco: pausas, ajustes de lance, duplicacoes",
-    "Voce quer usar IA no trabalho mas nao sabe por onde comecar sem virar programador",
-    "Voce gerencia Google Ads ou Meta Ads e perde tempo em tarefas que nao geram estrategia",
-    "Voce quer ser o gestor que entrega mais — sem contratar mais pessoas",
+    "Você passa horas montando relatorios que deveriam levar minutos",
+    "Você depende de dev ou webdesigner para subir uma página — e espera dias",
+    "Você sobe campanhas no braço: pausas, ajustes de lance, duplicacoes",
+    "Você quer usar IA no trabalho mas não sabe por onde comecar sem virar programador",
+    "Você gerencia Google Ads ou Meta Ads e perde tempo em tarefas que não geram estrategia",
+    "Você quer ser o gestor que entrega mais — sem contratar mais pessoas",
   ];
 
   return (
@@ -15,10 +15,10 @@ export default function ForWhom() {
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-8 sm:mb-10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3" style={{ fontFamily: "'Poppins', sans-serif" }}>
-            Este curso e para voce se <span className="text-orange-400">reconhece isso</span>
+            Este curso e para Você se <span className="text-orange-400">reconhece isso</span>
           </h2>
           <p className="text-sm sm:text-base text-gray-400">
-            Nao precisa ter todos. Um ja e motivo suficiente.
+            não precisa ter todos. Um ja e motivo suficiente.
           </p>
         </div>
 
@@ -33,7 +33,7 @@ export default function ForWhom() {
 
         <div className="text-center p-4 rounded-lg bg-orange-500/10 border border-orange-500/20">
           <p className="text-sm sm:text-base text-gray-300">
-            <span className="text-white font-semibold">Requisito minimo:</span> ter experiencia pratica com Google Ads ou Meta Ads. Voce nao precisa saber programar.
+            <span className="text-white font-semibold">Requisito mínimo:</span> ter experiência pratica com Google Ads ou Meta Ads. Você não precisa saber programar.
           </p>
         </div>
       </div>
