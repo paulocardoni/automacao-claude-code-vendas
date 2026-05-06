@@ -1,5 +1,7 @@
 ﻿import TopBar from "@/components/TopBar";
 import Hero from "@/components/Hero";
+import ForWhom from "@/components/ForWhom";
+import About from "@/components/About";
 import Comparison from "@/components/Comparison";
 import WhatYouWillLearn from "@/components/WhatYouWillLearn";
 import Pricing from "@/components/Pricing";
@@ -13,8 +15,10 @@ export default function Home() {
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
       <TopBar />
       <Hero />
+      <ForWhom />
       <Comparison />
       <WhatYouWillLearn />
+      <About />
       <Pricing />
       <ObjectionKiller />
       <FAQ />
