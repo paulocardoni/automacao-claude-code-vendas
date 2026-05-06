@@ -1,26 +1,24 @@
-﻿import TopBar from "@/components/TopBar";
+import TopBar from "@/components/TopBar";
 import Hero from "@/components/Hero";
 import ForWhom from "@/components/ForWhom";
-import About from "@/components/About";
-import Comparison from "@/components/Comparison";
 import WhatYouWillLearn from "@/components/WhatYouWillLearn";
 import Pricing from "@/components/Pricing";
-import ObjectionKiller from "@/components/ObjectionKiller";
+import About from "@/components/About";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
 import FloatingCTA from "@/components/FloatingCTA";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
+    <div className="min-h-screen bg-background text-foreground overflow-x-hidden pt-10">
       <TopBar />
       <Hero />
       <ForWhom />
-      <Comparison />
       <WhatYouWillLearn />
+      <div id="pricing">
+        <Pricing />
+      </div>
       <About />
-      <Pricing />
-      <ObjectionKiller />
       <FAQ />
       <Footer />
       <FloatingCTA />

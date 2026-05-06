@@ -1,102 +1,69 @@
-import { CheckCircle2 } from "lucide-react";
+import { CheckCircle2, Zap } from "lucide-react";
 
-/**
- * WhatYouWillLearn Component
- * Seção que destaca os 8 principais aprendizados do curso
- * Otimizado para SEO e conversão
- * Design: Dark Mode + Laranja/Coral
- */
+const HOTMART_URL = "https://pay.hotmart.com/P105267357Y?off=skjyhsxd&hotfeature=51";
+
+const learnings = [
+  {
+    title: "Relatorios automaticos em minutos",
+    description: "O que voce faz em 3 horas no Excel, o Claude faz em 3 minutos. Dashboards de performance prontos para o cliente sem tocar numa planilha."
+  },
+  {
+    title: "Campanhas no piloto automatico",
+    description: "Pausas, ajustes de lance e duplicacoes sem abrir o Ads Manager. Use MCP conectado direto nas APIs do Google e Meta."
+  },
+  {
+    title: "Paginas e ferramentas sem dev",
+    description: "Crie landing pages, scripts e ferramentas internas com Claude Code. Sem contratar ninguem, sem esperar dias de aprovacao."
+  },
+  {
+    title: "Auditoria de contas com IA",
+    description: "Detecte automaticamente onde o orcamento esta vazando — palavras-chave ineficientes, lances fora de meta, publicos saturados."
+  },
+  {
+    title: "Agentes rodando 24/7 na nuvem",
+    description: "Suba seus agentes em VPS e deixe a automacao rodando mesmo com o computador desligado. Operacao sem parar."
+  },
+  {
+    title: "Planejamento e organizacao com IA",
+    description: "Monte planos de midia, priorize tarefas e organize a operacao da agencia com agentes que entendem o contexto do seu negocio."
+  },
+];
+
 export default function WhatYouWillLearn() {
-  const learnings = [
-    {
-      title: "Domine o Claude Code e Agentes de IA",
-      description: "Gerir Google e Meta Ads com precisão industrial, garantindo previsibilidade de resultados e ROI executivo."
-    },
-    {
-      title: "Protocolo MCP e Queries GAQL",
-      description: "Conecte o Claude às APIs oficiais, extraindo dados em tempo real para automações de alta performance e escala."
-    },
-    {
-      title: "Scripts e Agentes em VPS na Nuvem",
-      description: "Rode operações 24/7, garantindo que sua gestão de tráfego nunca pare, mesmo com seu computador desligado."
-    },
-    {
-      title: "Elimine o Operacional Braçal",
-      description: "Orquestre estratégias de Growth que escalam o faturamento e reduzem o CPA de forma automatizada."
-    },
-    {
-      title: "Scripts Python para Auditoria",
-      description: "Crie ferramentas personalizadas para detectar anomalias e erros que drenam o orçamento dos seus clientes."
-    },
-    {
-      title: "Relatórios C-Level Automatizados",
-      description: "Gere dashboards complexos de performance, economizando horas semanais e impressionando clientes com dados."
-    },
-    {
-      title: "Fluxos de FinOps em Tráfego Pago",
-      description: "Monitore gastos e otimize lances automaticamente com base em metas de lucro real (LTV/CAC)."
-    },
-    {
-      title: "Segurança e Engenharia de Automação",
-      description: "Blindar sua operação com boas práticas de segurança de dados, tokens e .claudeignore em AdTech."
-    }
-  ];
-
   return (
-    <section className="py-12 sm:py-16 md:py-20 lg:py-24 bg-gradient-to-b from-background via-background to-background/80">
-      <div className="container">
-        {/* Header */}
-        <div className="mb-12 sm:mb-16 md:mb-20">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-foreground">
-            O Que Você Aprenderá
+    <section className="py-10 sm:py-14 md:py-16 px-4 sm:px-6 md:px-8">
+      <div className="max-w-5xl mx-auto">
+        <div className="text-center mb-8 sm:mb-12">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3" style={{ fontFamily: "'Poppins', sans-serif" }}>
+            O que voce vai <span className="text-orange-400">conseguir fazer</span>
           </h2>
-          <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-3xl">
-            Domine as ferramentas e estratégias que estão redefinindo o futuro da automação em marketing digital.
+          <p className="text-sm sm:text-base text-gray-400 max-w-2xl mx-auto">
+            Nao e lista de aulas. E o que muda na sua rotina na semana que voce comecar.
           </p>
         </div>
 
-        {/* Grid de Aprendizados */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 md:gap-10">
-          {learnings.map((learning, index) => (
-            <div
-              key={index}
-              className="group relative bg-card border border-border rounded-xl p-6 sm:p-8 hover:border-orange-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-orange-500/10"
-            >
-              {/* Ícone */}
-              <div className="flex items-start gap-4 sm:gap-5">
-                <div className="flex-shrink-0 mt-1">
-                  <CheckCircle2 className="h-6 w-6 sm:h-7 sm:w-7 text-orange-500 flex-shrink-0" />
-                </div>
-
-                {/* Conteúdo */}
-                <div className="flex-1 min-w-0">
-                  <h3 className="text-lg sm:text-xl font-semibold text-foreground mb-2 sm:mb-3 group-hover:text-orange-500 transition-colors">
-                    {learning.title}
-                  </h3>
-                  <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-                    {learning.description}
-                  </p>
-                </div>
-              </div>
-
-              {/* Gradient Background (hover effect) */}
-              <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-orange-500/0 via-orange-500/0 to-orange-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-5 mb-10">
+          {learnings.map((item, i) => (
+            <div key={i} className="group p-4 sm:p-5 rounded-xl border border-gray-800 bg-gray-900/50 hover:border-orange-500/40 hover:bg-gray-900/80 transition-all duration-300">
+              <CheckCircle2 className="h-5 w-5 text-orange-400 mb-3 flex-shrink-0" />
+              <h3 className="text-sm sm:text-base font-bold text-white mb-2 group-hover:text-orange-400 transition-colors">
+                {item.title}
+              </h3>
+              <p className="text-xs sm:text-sm text-gray-400 leading-relaxed">
+                {item.description}
+              </p>
             </div>
           ))}
         </div>
 
-        {/* CTA Section */}
-        <div className="mt-12 sm:mt-16 md:mt-20 text-center">
-          <p className="text-base sm:text-lg text-muted-foreground mb-6 sm:mb-8">
-            Pronto para transformar sua gestão de tráfego?
-          </p>
-          <a
-            href="https://pay.hotmart.com/P105267357Y?off=skjyhsxd&hotfeature=51"
-            className="inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 bg-orange-500 hover:bg-orange-600 text-white font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-orange-500/50"
-          >
-            Garantir Minha Autonomia
-            <span className="ml-2">→</span>
+        <div className="text-center">
+          <a href={HOTMART_URL} target="_blank" rel="noopener noreferrer">
+            <button className="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 active:scale-95 text-white font-bold text-sm sm:text-base px-8 py-4 rounded-lg transition-all duration-200">
+              <Zap className="h-4 w-4" />
+              QUERO APRENDER ISSO AGORA
+            </button>
           </a>
+          <p className="text-xs text-gray-500 mt-2">77 vagas com preco de lancamento — R$42,90</p>
         </div>
       </div>
     </section>
