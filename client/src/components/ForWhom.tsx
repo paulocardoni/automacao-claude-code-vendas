@@ -15,7 +15,7 @@ export default function ForWhom() {
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-8 sm:mb-10">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3" style={{ fontFamily: "'Poppins', sans-serif" }}>
-            Este curso e para Você se <span className="text-orange-400">com algum desses pontos</span>
+            Este curso é para você que se identifica com <span className="text-orange-400">algum desses pontos</span>
           </h2>
           <p className="text-sm sm:text-base text-gray-400">
             Um já é motivo suficiente para mudar sua rotina.
