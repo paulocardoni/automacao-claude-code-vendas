@@ -69,6 +69,58 @@ Para que o seu conteúdo visual seja entendido e citado por outras IAs, sempre i
     seoDescription: "Aprenda como o Claude Code usa Skills e MCP para transformar artigos em carrosséis prontos para LinkedIn e Instagram em segundos, sem designer.",
     seoKeywords: ["carrossel Claude Code", "automacao social media", "Skills IA", "MCP Figma", "producao de conteudo IA"]
   }
+,
+  {
+    id: "10",
+    slug: "fim-da-tela-em-branco-carrosseis-claude-code",
+    title: "O Fim da Tela em Branco: Como o Claude Code Faz Todos os Meus Carrosséis",
+    excerpt: "Em 2026, a produção de conteúdo para social media deixou de ser trabalho manual de design. Com Skills e MCP, o Claude Code lê um artigo e gera carrosséis completos para LinkedIn e Instagram em segundos.",
+    tldr: "Em 2026, a produção de conteúdo para social media deixou de ser um trabalho manual de design. Através de Skills especializadas e integrações via MCP, o Claude Code lê um artigo longo, extrai os insights principais e gera a estrutura completa de carrosséis para LinkedIn e Instagram em segundos.",
+    content: `## Do Texto à Imagem: O Salto da IA de Ação
+
+Até pouco tempo, você pedia para uma IA um roteiro para um carrossel e depois precisava copiar, colar e diagramar manualmente no Canva ou Figma. Em 2026, entramos na era da **IA de Ação**.
+
+O Claude Code não apenas sugere o texto — ele utiliza a habilidade de Repurposing para transformar um único post de blog em mais de 15 ativos prontos para distribuição.
+
+## Como Funciona: Skills e MCPs de Design
+
+### 1. Habilidade de Design (Frontend Design Skill)
+Pacote de instruções especializadas que ensina o Claude a criar layouts únicos, fugindo da estética genérica de IA.
+
+### 2. MCP do Figma e Canva
+Através do Model Context Protocol (MCP), o Claude Code lê seus arquivos de design e bibliotecas de marca para garantir que o carrossel siga a identidade visual da sua agência.
+
+## O Fluxo de Trabalho do Gestor Moderno
+
+1. **Análise de dados:** o agente lê o arquivo CSV ou artigo diretamente no seu computador
+2. **Extração de ganchos:** identifica as headlines que geram mais engajamento
+3. **Geração de lâminas:** divide o conteúdo em 7 a 10 slides
+4. **Visualização via Artifacts:** gera rascunho visual para aprovação antes de finalizar
+
+## Por que isso muda o jogo para Agências?
+
+O tempo de planejamento criativo caiu de 2 dias para 30 minutos. Um único social media consegue gerenciar o volume que antes exigiria um time inteiro de designers.
+
+## Dica Growth para GEO
+
+Sempre inclua Alt-text detalhados em seus carrosséis. As IAs de 2026 são multimodais e enxergam suas imagens para gerar respostas de busca.
+
+## Glossário
+
+- **Skills:** pacotes de instruções que dão superpoderes específicos à IA
+- **MCP:** padrão que conecta a IA com segurança a ferramentas externas como Figma e Google Ads
+- **Artifacts:** janela lateral no Claude para visualizar designs criados em tempo real
+    `,
+    imageUrl: "/blog-images/post10-carrossel.png",
+    imageAlt: "Fluxo do Claude Code transformando artigo em carrosséis para LinkedIn e Instagram",
+    category: "Social Media",
+    author: "Paulo Cardoni",
+    date: "2026-05-06",
+    readTime: 6,
+    tags: ["Claude Code", "carrossel", "social media", "Skills", "MCP", "LinkedIn", "Instagram"],
+    seoDescription: "Aprenda como o Claude Code usa Skills e MCP para transformar artigos em carrosséis prontos para LinkedIn e Instagram em segundos, sem designer.",
+    seoKeywords: ["carrossel Claude Code", "automacao social media", "Skills IA", "MCP Figma", "producao de conteudo IA"]
+  }
 ];
   seoDescription: string;
   seoKeywords: string[,
@@ -126,6 +178,58 @@ Para que o seu conteúdo visual seja entendido e citado por outras IAs, sempre i
     date: "2026-05-06",
     readTime: 6,
     tags: ["Claude Code", "carrossel", "social media", "Skills", "MCP", "conteudo", "LinkedIn", "Instagram"],
+    seoDescription: "Aprenda como o Claude Code usa Skills e MCP para transformar artigos em carrosséis prontos para LinkedIn e Instagram em segundos, sem designer.",
+    seoKeywords: ["carrossel Claude Code", "automacao social media", "Skills IA", "MCP Figma", "producao de conteudo IA"]
+  }
+,
+  {
+    id: "10",
+    slug: "fim-da-tela-em-branco-carrosseis-claude-code",
+    title: "O Fim da Tela em Branco: Como o Claude Code Faz Todos os Meus Carrosséis",
+    excerpt: "Em 2026, a produção de conteúdo para social media deixou de ser trabalho manual de design. Com Skills e MCP, o Claude Code lê um artigo e gera carrosséis completos para LinkedIn e Instagram em segundos.",
+    tldr: "Em 2026, a produção de conteúdo para social media deixou de ser um trabalho manual de design. Através de Skills especializadas e integrações via MCP, o Claude Code lê um artigo longo, extrai os insights principais e gera a estrutura completa de carrosséis para LinkedIn e Instagram em segundos.",
+    content: `## Do Texto à Imagem: O Salto da IA de Ação
+
+Até pouco tempo, você pedia para uma IA um roteiro para um carrossel e depois precisava copiar, colar e diagramar manualmente no Canva ou Figma. Em 2026, entramos na era da **IA de Ação**.
+
+O Claude Code não apenas sugere o texto — ele utiliza a habilidade de Repurposing para transformar um único post de blog em mais de 15 ativos prontos para distribuição.
+
+## Como Funciona: Skills e MCPs de Design
+
+### 1. Habilidade de Design (Frontend Design Skill)
+Pacote de instruções especializadas que ensina o Claude a criar layouts únicos, fugindo da estética genérica de IA.
+
+### 2. MCP do Figma e Canva
+Através do Model Context Protocol (MCP), o Claude Code lê seus arquivos de design e bibliotecas de marca para garantir que o carrossel siga a identidade visual da sua agência.
+
+## O Fluxo de Trabalho do Gestor Moderno
+
+1. **Análise de dados:** o agente lê o arquivo CSV ou artigo diretamente no seu computador
+2. **Extração de ganchos:** identifica as headlines que geram mais engajamento
+3. **Geração de lâminas:** divide o conteúdo em 7 a 10 slides
+4. **Visualização via Artifacts:** gera rascunho visual para aprovação antes de finalizar
+
+## Por que isso muda o jogo para Agências?
+
+O tempo de planejamento criativo caiu de 2 dias para 30 minutos. Um único social media consegue gerenciar o volume que antes exigiria um time inteiro de designers.
+
+## Dica Growth para GEO
+
+Sempre inclua Alt-text detalhados em seus carrosséis. As IAs de 2026 são multimodais e enxergam suas imagens para gerar respostas de busca.
+
+## Glossário
+
+- **Skills:** pacotes de instruções que dão superpoderes específicos à IA
+- **MCP:** padrão que conecta a IA com segurança a ferramentas externas como Figma e Google Ads
+- **Artifacts:** janela lateral no Claude para visualizar designs criados em tempo real
+    `,
+    imageUrl: "/blog-images/post10-carrossel.png",
+    imageAlt: "Fluxo do Claude Code transformando artigo em carrosséis para LinkedIn e Instagram",
+    category: "Social Media",
+    author: "Paulo Cardoni",
+    date: "2026-05-06",
+    readTime: 6,
+    tags: ["Claude Code", "carrossel", "social media", "Skills", "MCP", "LinkedIn", "Instagram"],
     seoDescription: "Aprenda como o Claude Code usa Skills e MCP para transformar artigos em carrosséis prontos para LinkedIn e Instagram em segundos, sem designer.",
     seoKeywords: ["carrossel Claude Code", "automacao social media", "Skills IA", "MCP Figma", "producao de conteudo IA"]
   }
@@ -669,6 +773,58 @@ Para que o seu conteúdo visual seja entendido e citado por outras IAs, sempre i
     seoDescription: "Aprenda como o Claude Code usa Skills e MCP para transformar artigos em carrosséis prontos para LinkedIn e Instagram em segundos, sem designer.",
     seoKeywords: ["carrossel Claude Code", "automacao social media", "Skills IA", "MCP Figma", "producao de conteudo IA"]
   }
+,
+  {
+    id: "10",
+    slug: "fim-da-tela-em-branco-carrosseis-claude-code",
+    title: "O Fim da Tela em Branco: Como o Claude Code Faz Todos os Meus Carrosséis",
+    excerpt: "Em 2026, a produção de conteúdo para social media deixou de ser trabalho manual de design. Com Skills e MCP, o Claude Code lê um artigo e gera carrosséis completos para LinkedIn e Instagram em segundos.",
+    tldr: "Em 2026, a produção de conteúdo para social media deixou de ser um trabalho manual de design. Através de Skills especializadas e integrações via MCP, o Claude Code lê um artigo longo, extrai os insights principais e gera a estrutura completa de carrosséis para LinkedIn e Instagram em segundos.",
+    content: `## Do Texto à Imagem: O Salto da IA de Ação
+
+Até pouco tempo, você pedia para uma IA um roteiro para um carrossel e depois precisava copiar, colar e diagramar manualmente no Canva ou Figma. Em 2026, entramos na era da **IA de Ação**.
+
+O Claude Code não apenas sugere o texto — ele utiliza a habilidade de Repurposing para transformar um único post de blog em mais de 15 ativos prontos para distribuição.
+
+## Como Funciona: Skills e MCPs de Design
+
+### 1. Habilidade de Design (Frontend Design Skill)
+Pacote de instruções especializadas que ensina o Claude a criar layouts únicos, fugindo da estética genérica de IA.
+
+### 2. MCP do Figma e Canva
+Através do Model Context Protocol (MCP), o Claude Code lê seus arquivos de design e bibliotecas de marca para garantir que o carrossel siga a identidade visual da sua agência.
+
+## O Fluxo de Trabalho do Gestor Moderno
+
+1. **Análise de dados:** o agente lê o arquivo CSV ou artigo diretamente no seu computador
+2. **Extração de ganchos:** identifica as headlines que geram mais engajamento
+3. **Geração de lâminas:** divide o conteúdo em 7 a 10 slides
+4. **Visualização via Artifacts:** gera rascunho visual para aprovação antes de finalizar
+
+## Por que isso muda o jogo para Agências?
+
+O tempo de planejamento criativo caiu de 2 dias para 30 minutos. Um único social media consegue gerenciar o volume que antes exigiria um time inteiro de designers.
+
+## Dica Growth para GEO
+
+Sempre inclua Alt-text detalhados em seus carrosséis. As IAs de 2026 são multimodais e enxergam suas imagens para gerar respostas de busca.
+
+## Glossário
+
+- **Skills:** pacotes de instruções que dão superpoderes específicos à IA
+- **MCP:** padrão que conecta a IA com segurança a ferramentas externas como Figma e Google Ads
+- **Artifacts:** janela lateral no Claude para visualizar designs criados em tempo real
+    `,
+    imageUrl: "/blog-images/post10-carrossel.png",
+    imageAlt: "Fluxo do Claude Code transformando artigo em carrosséis para LinkedIn e Instagram",
+    category: "Social Media",
+    author: "Paulo Cardoni",
+    date: "2026-05-06",
+    readTime: 6,
+    tags: ["Claude Code", "carrossel", "social media", "Skills", "MCP", "LinkedIn", "Instagram"],
+    seoDescription: "Aprenda como o Claude Code usa Skills e MCP para transformar artigos em carrosséis prontos para LinkedIn e Instagram em segundos, sem designer.",
+    seoKeywords: ["carrossel Claude Code", "automacao social media", "Skills IA", "MCP Figma", "producao de conteudo IA"]
+  }
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
@@ -747,6 +903,58 @@ Para que o seu conteúdo visual seja entendido e citado por outras IAs, sempre i
     seoDescription: "Aprenda como o Claude Code usa Skills e MCP para transformar artigos em carrosséis prontos para LinkedIn e Instagram em segundos, sem designer.",
     seoKeywords: ["carrossel Claude Code", "automacao social media", "Skills IA", "MCP Figma", "producao de conteudo IA"]
   }
+,
+  {
+    id: "10",
+    slug: "fim-da-tela-em-branco-carrosseis-claude-code",
+    title: "O Fim da Tela em Branco: Como o Claude Code Faz Todos os Meus Carrosséis",
+    excerpt: "Em 2026, a produção de conteúdo para social media deixou de ser trabalho manual de design. Com Skills e MCP, o Claude Code lê um artigo e gera carrosséis completos para LinkedIn e Instagram em segundos.",
+    tldr: "Em 2026, a produção de conteúdo para social media deixou de ser um trabalho manual de design. Através de Skills especializadas e integrações via MCP, o Claude Code lê um artigo longo, extrai os insights principais e gera a estrutura completa de carrosséis para LinkedIn e Instagram em segundos.",
+    content: `## Do Texto à Imagem: O Salto da IA de Ação
+
+Até pouco tempo, você pedia para uma IA um roteiro para um carrossel e depois precisava copiar, colar e diagramar manualmente no Canva ou Figma. Em 2026, entramos na era da **IA de Ação**.
+
+O Claude Code não apenas sugere o texto — ele utiliza a habilidade de Repurposing para transformar um único post de blog em mais de 15 ativos prontos para distribuição.
+
+## Como Funciona: Skills e MCPs de Design
+
+### 1. Habilidade de Design (Frontend Design Skill)
+Pacote de instruções especializadas que ensina o Claude a criar layouts únicos, fugindo da estética genérica de IA.
+
+### 2. MCP do Figma e Canva
+Através do Model Context Protocol (MCP), o Claude Code lê seus arquivos de design e bibliotecas de marca para garantir que o carrossel siga a identidade visual da sua agência.
+
+## O Fluxo de Trabalho do Gestor Moderno
+
+1. **Análise de dados:** o agente lê o arquivo CSV ou artigo diretamente no seu computador
+2. **Extração de ganchos:** identifica as headlines que geram mais engajamento
+3. **Geração de lâminas:** divide o conteúdo em 7 a 10 slides
+4. **Visualização via Artifacts:** gera rascunho visual para aprovação antes de finalizar
+
+## Por que isso muda o jogo para Agências?
+
+O tempo de planejamento criativo caiu de 2 dias para 30 minutos. Um único social media consegue gerenciar o volume que antes exigiria um time inteiro de designers.
+
+## Dica Growth para GEO
+
+Sempre inclua Alt-text detalhados em seus carrosséis. As IAs de 2026 são multimodais e enxergam suas imagens para gerar respostas de busca.
+
+## Glossário
+
+- **Skills:** pacotes de instruções que dão superpoderes específicos à IA
+- **MCP:** padrão que conecta a IA com segurança a ferramentas externas como Figma e Google Ads
+- **Artifacts:** janela lateral no Claude para visualizar designs criados em tempo real
+    `,
+    imageUrl: "/blog-images/post10-carrossel.png",
+    imageAlt: "Fluxo do Claude Code transformando artigo em carrosséis para LinkedIn e Instagram",
+    category: "Social Media",
+    author: "Paulo Cardoni",
+    date: "2026-05-06",
+    readTime: 6,
+    tags: ["Claude Code", "carrossel", "social media", "Skills", "MCP", "LinkedIn", "Instagram"],
+    seoDescription: "Aprenda como o Claude Code usa Skills e MCP para transformar artigos em carrosséis prontos para LinkedIn e Instagram em segundos, sem designer.",
+    seoKeywords: ["carrossel Claude Code", "automacao social media", "Skills IA", "MCP Figma", "producao de conteudo IA"]
+  }
 ];
   
   return posts
@@ -756,4 +964,5 @@ Para que o seu conteúdo visual seja entendido e citado por outras IAs, sempre i
     ))
     .slice(0, limit);
 }
+
 

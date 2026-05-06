@@ -21,7 +21,6 @@ export default function ForWhom() {
             Um já é motivo suficiente para mudar sua rotina.
           </p>
         </div>
-
         <div className="grid sm:grid-cols-2 gap-3 sm:gap-4 mb-8">
           {items.map((item, i) => (
             <div key={i} className="flex items-start gap-3 p-4 rounded-lg bg-gray-900/50 border border-gray-800 hover:border-orange-500/30 transition-colors">
@@ -30,7 +29,6 @@ export default function ForWhom() {
             </div>
           ))}
         </div>
-
         <div className="text-center p-4 rounded-lg bg-orange-500/10 border border-orange-500/20">
           <p className="text-sm sm:text-base text-gray-300">
             <span className="text-white font-semibold">Requisito mínimo:</span> ter experiência prática com Google Ads ou Meta Ads. Você não precisa saber programar.
