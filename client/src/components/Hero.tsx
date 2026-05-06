@@ -24,7 +24,7 @@ export default function Hero() {
             </h1>
 
             <p className="text-sm sm:text-base md:text-lg text-gray-300 mb-4 sm:mb-6 leading-relaxed">
-              Relatorios, analises e otimizacoes de campanha no automatico — sem saber programar, sem assinar mais uma ferramenta cara.
+              Relatórios, análises e otimizações de campanha no automático — sem saber programar, sem assinar mais uma ferramenta cara.
             </p>
 
             <div className="flex flex-col gap-2 mb-3 sm:mb-4">
