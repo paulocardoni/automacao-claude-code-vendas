@@ -2,11 +2,11 @@
 
 export default function ForWhom() {
   const items = [
-    "Você passa horas montando relatorios que deveriam levar minutos",
+    "Você passa horas montando relatórios que deveriam levar minutos",
     "Você depende de dev ou webdesigner para subir uma página — e espera dias",
-    "Você sobe campanhas no braço: pausas, ajustes de lance, duplicacoes",
-    "Você quer usar IA no trabalho mas não sabe por onde comecar sem virar programador",
-    "Você gerencia Google Ads ou Meta Ads e perde tempo em tarefas que não geram estrategia",
+    "Você sobe campanhas no braço: pausas, ajustes de lance, duplicações",
+    "Você quer usar IA no trabalho mas não sabe por onde começar sem virar programador",
+    "Você gerencia Google Ads ou Meta Ads e perde tempo em tarefas que não geram estratégia",
     "Você quer ser o gestor que entrega mais — sem contratar mais pessoas",
   ];
 
@@ -18,7 +18,7 @@ export default function ForWhom() {
             Este curso e para Você se <span className="text-orange-400">reconhece isso</span>
           </h2>
           <p className="text-sm sm:text-base text-gray-400">
-            não precisa ter todos. Um ja e motivo suficiente.
+            Um já é motivo suficiente para mudar sua rotina.
           </p>
         </div>
 
@@ -33,7 +33,7 @@ export default function ForWhom() {
 
         <div className="text-center p-4 rounded-lg bg-orange-500/10 border border-orange-500/20">
           <p className="text-sm sm:text-base text-gray-300">
-            <span className="text-white font-semibold">Requisito mínimo:</span> ter experiência pratica com Google Ads ou Meta Ads. Você não precisa saber programar.
+            <span className="text-white font-semibold">Requisito mínimo:</span> ter experiência prática com Google Ads ou Meta Ads. Você não precisa saber programar.
           </p>
         </div>
       </div>

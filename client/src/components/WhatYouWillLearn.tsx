@@ -4,28 +4,28 @@ const HOTMART_URL = "https://pay.hotmart.com/P105267357Y?off=skjyhsxd&hotfeature
 
 const learnings = [
   {
-    title: "Relatorios automáticos em minutos",
+    title: "Relatórios automáticos em minutos",
     description: "O que Você faz em 3 horas no Excel, o Claude faz em 3 minutos. Dashboards de performance prontos para o cliente sem tocar numa planilha."
   },
   {
     title: "Campanhas no piloto automático",
-    description: "Pausas, ajustes de lance e duplicacoes sem abrir o Ads Manager. Use MCP conectado direto nas APIs do Google e Meta."
+    description: "Pausas, ajustes de lance e duplicações sem abrir o Ads Manager. Use MCP conectado direto nas APIs do Google e Meta."
   },
   {
     title: "páginas e ferramentas sem dev",
-    description: "Crie landing pages, scripts e ferramentas internas com Claude Code. Sem contratar ninguem, sem esperar dias de aprovacao."
+    description: "Crie landing pages, scripts e ferramentas internas com Claude Code. Sem contratar ninguém, sem esperar dias de aprovação."
   },
   {
     title: "Auditoria de contas com IA",
-    description: "Detecte automaticamente onde o orçamento esta vazando — palavras-chave ineficientes, lances fora de meta, publicos saturados."
+    description: "Detecte automaticamente onde o orçamento está vazando — palavras-chave ineficientes, lances fora de meta, públicos saturados."
   },
   {
     title: "Agentes rodando 24/7 na nuvem",
-    description: "Suba seus agentes em VPS e deixe a automacao rodando mesmo com o computador desligado. Operacao sem parar."
+    description: "Suba seus agentes em VPS e deixe a automação rodando mesmo com o computador desligado. Operação sem parar."
   },
   {
-    title: "Planejamento e organizacao com IA",
-    description: "Monte planos de midia, priorize tarefas e organize a operacao da agencia com agentes que entendem o contexto do seu negocio."
+    title: "Planejamento e organização com IA",
+    description: "Monte planos de mídia, priorize tarefas e organize a Operação da agência com agentes que entendem o contexto do seu negócio."
   },
 ];
 
@@ -38,7 +38,7 @@ export default function WhatYouWillLearn() {
             O que Você vai <span className="text-orange-400">conseguir fazer</span>
           </h2>
           <p className="text-sm sm:text-base text-gray-400 max-w-2xl mx-auto">
-            não e lista de aulas. E o que muda na sua rotina na semana que Você começar.
+            não e lista de aulas. É o que muda na sua rotina na semana que Você começar.
           </p>
         </div>
 
@@ -63,7 +63,7 @@ export default function WhatYouWillLearn() {
               QUERO APRENDER ISSO AGORA
             </button>
           </a>
-          <p className="text-xs text-gray-500 mt-2">77 vagas com preco de lancamento — R$42,90</p>
+          <p className="text-xs text-gray-500 mt-2">77 vagas com preço de lançamento — R$42,90</p>
         </div>
       </div>
     </section>
