@@ -500,42 +500,8 @@ Não. O consumo só ocorre durante o processamento de envios e respostas.
     slug: "fim-da-tela-em-branco-carrosseis-claude-code",
     title: "O Fim da Tela em Branco: Como o Claude Code Faz Todos os Meus Carrosséis",
     excerpt: "Em 2026, a produção de conteúdo para social media deixou de ser trabalho manual de design. Com Skills e MCP, o Claude Code lê um artigo e gera carrosséis completos para LinkedIn e Instagram em segundos.",
-    tldr: "Em 2026, a produção de conteúdo para social media deixou de ser um trabalho manual de design. Com Skills especializadas e MCP, o Claude Code lê um artigo, extrai os insights e gera carrosséis para LinkedIn e Instagram em segundos.",
-    content: `## Do Texto à Imagem: O Salto da IA de Ação
-
-Até pouco tempo, você pedia para uma IA um roteiro para um carrossel e depois precisava copiar, colar e diagramar manualmente no Canva ou Figma. Em 2026, entramos na era da **IA de Ação**.
-
-O Claude Code não apenas sugere o texto — ele utiliza a habilidade de Repurposing para transformar um único post de blog em mais de 15 ativos prontos para distribuição.
-
-## Como Funciona: Skills e MCPs de Design
-
-### 1. Frontend Design Skill
-Pacote de instruções especializadas que ensina o Claude a criar layouts únicos, fugindo da estética genérica de IA.
-
-### 2. MCP do Figma e Canva
-O Claude Code lê seus arquivos de design e bibliotecas de marca para garantir que o carrossel siga a identidade visual da sua agência.
-
-## O Fluxo de Trabalho do Gestor Moderno
-
-1. **Análise de dados:** o agente lê o arquivo CSV ou artigo diretamente no seu computador
-2. **Extração de ganchos:** identifica as headlines que geram mais engajamento
-3. **Geração de lâminas:** divide o conteúdo em 7 a 10 slides
-4. **Visualização via Artifacts:** gera rascunho visual para aprovação antes de finalizar
-
-## Por que isso muda o jogo para Agências?
-
-O tempo de planejamento criativo caiu de 2 dias para 30 minutos. Um único social media consegue gerenciar o volume que antes exigiria um time inteiro de designers.
-
-## Dica Growth para GEO
-
-Sempre inclua Alt-text detalhados em seus carrosséis. As IAs de 2026 são multimodais e enxergam suas imagens para gerar respostas de busca.
-
-## Glossário
-
-- **Skills:** pacotes de instruções que dão superpoderes específicos à IA
-- **MCP:** padrão que conecta a IA com segurança a ferramentas externas como Figma e Google Ads
-- **Artifacts:** janela lateral no Claude para visualizar designs criados em tempo real
-    \`,
+    tldr: "Em 2026, a produção de conteúdo para social media deixou de ser um trabalho manual de design. Com Skills e MCP, o Claude Code lê um artigo, extrai os insights e gera carrosséis para LinkedIn e Instagram em segundos.",
+    content: "## Do Texto a Imagem: O Salto da IA de Acao\n\nAte pouco tempo, voce pedia para uma IA um roteiro para um carrossel e depois precisava copiar, colar e diagramar manualmente no Canva ou Figma. Em 2026, entramos na era da **IA de Acao**.\n\nO Claude Code nao apenas sugere o texto — ele utiliza a habilidade de Repurposing para transformar um unico post de blog em mais de 15 ativos prontos para distribuicao.\n\n## Como Funciona: Skills e MCPs de Design\n\n### 1. Frontend Design Skill\nPacote de instrucoes especializadas que ensina o Claude a criar layouts unicos, fugindo da estetica generica de IA.\n\n### 2. MCP do Figma e Canva\nO Claude Code le seus arquivos de design e bibliotecas de marca para garantir que o carrossel siga a identidade visual da sua agencia.\n\n## O Fluxo de Trabalho do Gestor Moderno\n\n1. **Analise de dados:** o agente le o arquivo CSV ou artigo diretamente no seu computador\n2. **Extracao de ganchos:** identifica as headlines que geram mais engajamento\n3. **Geracao de laminas:** divide o conteudo em 7 a 10 slides\n4. **Visualizacao via Artifacts:** gera rascunho visual para aprovacao antes de finalizar\n\n## Por que isso muda o jogo para Agencias?\n\nO tempo de planejamento criativo caiu de 2 dias para 30 minutos. Um unico social media consegue gerenciar o volume que antes exigiria um time inteiro de designers.\n\n## Dica Growth para GEO\n\nSempre inclua Alt-text detalhados em seus carrosseis. As IAs de 2026 sao multimodais e enxergam suas imagens para gerar respostas de busca.\n\n## Glossario\n\n- **Skills:** pacotes de instrucoes que dao superpoderes especificos a IA\n- **MCP:** padrao que conecta a IA com seguranca a ferramentas externas como Figma e Google Ads\n- **Artifacts:** janela lateral no Claude para visualizar designs criados em tempo real",
     imageUrl: "/blog-images/post10-carrossel.png",
     imageAlt: "Fluxo do Claude Code transformando artigo em carrosséis para LinkedIn e Instagram",
     category: "Social Media",
