@@ -545,6 +545,23 @@ Não. O consumo só ocorre durante o processamento de envios e respostas.
     tags: ["Claude Cowork", "agentes de IA", "MAS", "MCP", "agência", "automação"],
     seoDescription: "Aprenda a montar sua primeira equipe digital de agentes com Claude Cowork. Sistemas Multiagentes que reduzem 21 horas de trabalho para 4 minutos.",
     seoKeywords: ["Claude Cowork", "equipe de agentes IA", "Multi-Agent Systems", "automação agência 2026"]
+  },
+  {
+    id: "13",
+    slug: "limites-dobrados-parceria-anthropic-spacex-claude-code",
+    title: "Limites Dobrados! Como a Parceria entre Anthropic e SpaceX turbinou o Claude Code",
+    excerpt: "Em 6 de maio de 2026, a Anthropic anunciou parceria com a SpaceX para usar o data center Colossus 1. Resultado imediato: limites do Claude Code dobrados, throttling de pico eliminado e API Opus com aumento de 1500% para desenvolvedores.",
+    tldr: "A Anthropic fechou acordo com a SpaceX para usar o Colossus 1 com 300 MW e 220 mil GPUs. Os limites do Claude Code foram dobrados para planos Pro, Max, Team e Enterprise com vigencia imediata em 6 de maio de 2026.",
+    content: "## O Fim do Gargalo Operacional\n\nEm 6 de maio de 2026, a Anthropic anunciou uma parceria com a SpaceX para usar toda a capacidade de computacao do data center Colossus 1, adicionando mais de 300 megawatts de nova capacidade com mais de 220.000 GPUs NVIDIA. O resultado imediato: os limites do Claude Code foram dobrados e o throttling de horario de pico foi eliminado.\n\nAte essa data, o maior ponto fraco do Claude Code era o esgotamento rapido de tokens. Gestores de midia que gerenciam grandes contas chegavam a esgotar seus limites em menos de uma hora de trabalho intenso.\n\n## O que muda para sua agencia na pratica\n\n1. Limites Duplicados: se voce assina os planos Pro, Max, Team ou Enterprise, sua janela de uso de 5 horas agora e o dobro do que era anteriormente.\n2. Performance Consistente: o efeito de reducao por pico de demanda foi eliminado para usuarios Pro e Max. A IA mantem sua inteligencia maxima sem interrupcoes.\n3. API Opus turbinada: o Tier 1 da API recebeu aumento de 1500 porcento no maximo de tokens de entrada por minuto e 900 porcento no maximo de tokens de saida por minuto.\n\n## Como monitorar seu novo folego\n\nPara verificar como essa atualizacao impactou sua conta, use o comando /usage diretamente no terminal do Claude Code. Ele mostrara os novos limites do seu plano e o tempo exato para o proximo reset de creditos.\n\n## Dica de Growth\n\nMesmo com o dobro de limite, continue usando o /clear para limpar o historico desnecessario. Limpar o contexto economiza tokens preciosos, permitindo que voce aproveite esse novo poder de processamento para tarefas mais ambiciosas como auditorias completas de bibliotecas de criativos.\n\n## Impacto Estrategico\n\nEsta mudanca remove a ultima barreira para a adocao em massa da IA de Acao em agencias. Com mais credito, o Claude Code deixa de ser uma ferramenta de consulta eventual e passa a ser o sistema operacional onde sua equipe pode rodar scripts de relatorios automaticos 24/7 sem medo de ficar sem combustivel.\n\n## FAQ\n\nOs precos das assinaturas mudaram? Nao. Os precos dos planos Pro (US$ 20) e Max permanecem os mesmos, mas o valor entregue dobrou.\n\nPreciso configurar algo? Nao. As mudancas de infraestrutura sao aplicadas automaticamente pela Anthropic nos servidores.",
+    imageUrl: "/blog-images/post13-anthropic-spacex.png",
+    imageAlt: "Parceria Anthropic SpaceX Colossus 1 dobra limites do Claude Code em maio 2026",
+    category: "Notícias",
+    author: "Paulo Cardoni",
+    date: "2026-05-07",
+    readTime: 5,
+    tags: ["Anthropic", "SpaceX", "Claude Code", "limites", "Colossus 1", "atualização"],
+    seoDescription: "Anthropic e SpaceX fecharam parceria para usar o Colossus 1. Os limites do Claude Code foram dobrados e o throttling de pico foi eliminado a partir de 6 de maio de 2026.",
+    seoKeywords: ["Anthropic SpaceX", "Claude Code limites dobrados", "Colossus 1 Anthropic", "Claude Code 2026"]
   }
 ];
 
