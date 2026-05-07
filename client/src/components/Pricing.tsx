@@ -4,19 +4,23 @@ import { Check, Shield, Zap, Users } from "lucide-react";
 
 const HOTMART_URL = "https://pay.hotmart.com/P105267357Y?off=skjyhsxd&hotfeature=51";
 const STORAGE_KEY = "fa_vagas_restantes";
-const INITIAL_VAGAS = 77;
+const INITIAL_VAGAS = 73;
 
 export default function Pricing() {
   const [vagas, setVagas] = useState(INITIAL_VAGAS);
 
   useEffect(() => {
-    // Recupera vagas salvas no localStorage para persistir entre sessoes
     const saved = localStorage.getItem(STORAGE_KEY);
     if (saved) {
-      setVagas(parseInt(saved));
+      const savedNum = parseInt(saved);
+      if (savedNum > 0 && savedNum <= INITIAL_VAGAS) {
+        setVagas(savedNum);
+      } else {
+        localStorage.setItem(STORAGE_KEY, String(INITIAL_VAGAS));
+        setVagas(INITIAL_VAGAS);
+      }
     }
 
-    // Simula reducao gradual de vagas a cada intervalo aleatorio (entre 8 e 20 min)
     const decrement = () => {
       setVagas(prev => {
         if (prev <= 1) return 1;
@@ -32,6 +36,7 @@ export default function Pricing() {
   }, []);
 
   const porcentagem = Math.round(((100 - vagas) / 100) * 100);
+  const vagasTexto = vagas === 1 ? "1 vaga restante" : `${vagas} vagas restantes`;
 
   return (
     <section className="py-8 sm:py-12 md:py-16 px-4 sm:px-6 md:px-8 bg-gradient-to-b from-transparent to-orange-500/5">
@@ -44,7 +49,6 @@ export default function Pricing() {
         </div>
 
         <div className="relative rounded-lg border border-orange-500/30 bg-gradient-to-br from-gray-900 to-gray-950 p-4 sm:p-6 md:p-10 shadow-2xl">
-          {/* Badge */}
           <div className="absolute -top-2 sm:-top-3 left-1/2 transform -translate-x-1/2">
             <div className="inline-flex items-center gap-2 px-3 sm:px-4 py-1 sm:py-1.5 bg-orange-500 text-white font-bold rounded-full text-xs">
               <Zap className="h-3 w-3" />
@@ -52,7 +56,6 @@ export default function Pricing() {
             </div>
           </div>
 
-          {/* Contador de vagas */}
           <div className="mb-5 p-3 sm:p-4 rounded-lg bg-red-500/10 border border-red-500/30">
             <div className="flex items-center justify-between mb-2">
               <div className="flex items-center gap-2">
@@ -61,7 +64,6 @@ export default function Pricing() {
               </div>
               <span className="text-xl sm:text-2xl font-bold text-white">{vagas}<span className="text-gray-500 text-sm font-normal">/100</span></span>
             </div>
-            {/* Barra de progresso */}
             <div className="w-full h-2 bg-gray-800 rounded-full overflow-hidden">
               <div
                 className="h-2 bg-gradient-to-r from-red-500 to-orange-500 rounded-full transition-all duration-700"
@@ -73,7 +75,6 @@ export default function Pricing() {
             </p>
           </div>
 
-          {/* Preco */}
           <div className="text-center mb-4 sm:mb-6">
             <div className="flex items-center justify-center gap-3 mb-1">
               <span className="text-gray-500 text-sm line-through">R$127,90</span>
@@ -88,7 +89,6 @@ export default function Pricing() {
             </div>
           </div>
 
-          {/* Payment Methods */}
           <div className="flex flex-wrap justify-center gap-2 sm:gap-4 mb-4 sm:mb-5 py-3 sm:py-4 border-y border-gray-800">
             <div className="flex items-center gap-1 text-gray-400 text-xs">
               <span>💳</span>
@@ -104,7 +104,6 @@ export default function Pricing() {
             </div>
           </div>
 
-          {/* Security Badge */}
           <div className="flex justify-center mb-3 sm:mb-4">
             <div className="flex items-center gap-2 px-3 py-1.5 bg-green-500/10 border border-green-500/30 rounded-full">
               <Check className="h-3 w-3 text-green-400" />
@@ -112,7 +111,6 @@ export default function Pricing() {
             </div>
           </div>
 
-          {/* CTA Button */}
           <div className="mb-4">
             <a href={HOTMART_URL} target="_blank" rel="noopener noreferrer" className="block w-full">
               <Button
@@ -125,12 +123,10 @@ export default function Pricing() {
             </a>
           </div>
 
-          {/* Warning */}
           <p className="text-center text-xs text-red-400 mb-4 font-medium">
-            Depois das {vagas} vagas restantes o valor sobe para R$127,90
+            Depois {vagasTexto === "1 vaga restante" ? "da" : "das"} {vagasTexto} o valor sobe para R$127,90
           </p>
 
-          {/* Benefits */}
           <div className="space-y-2">
             <div className="flex items-center gap-2 text-gray-300 text-xs sm:text-sm">
               <Check className="h-4 w-4 text-green-400 flex-shrink-0" />
@@ -147,7 +143,6 @@ export default function Pricing() {
           </div>
         </div>
 
-        {/* Guarantee Banner */}
         <div className="mt-6 sm:mt-8 p-4 sm:p-6 rounded-lg bg-gradient-to-r from-green-500/10 to-green-500/5 border border-green-500/20">
           <div className="flex items-start gap-3">
             <Shield className="h-5 w-5 text-green-400 mt-0.5 flex-shrink-0" />

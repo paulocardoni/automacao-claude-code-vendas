@@ -562,6 +562,23 @@ Não. O consumo só ocorre durante o processamento de envios e respostas.
     tags: ["Anthropic", "SpaceX", "Claude Code", "limites", "Colossus 1", "atualização"],
     seoDescription: "Anthropic e SpaceX fecharam parceria para usar o Colossus 1. Os limites do Claude Code foram dobrados e o throttling de pico foi eliminado a partir de 6 de maio de 2026.",
     seoKeywords: ["Anthropic SpaceX", "Claude Code limites dobrados", "Colossus 1 Anthropic", "Claude Code 2026"]
+  },
+  {
+    id: "14",
+    slug: "claude-dreaming-ia-aprende-sozinha-dorme",
+    title: "Claude Code Dreaming: O que é a nova funcionalidade que faz a IA Sonhar para aprender sozinha",
+    excerpt: "O Dreaming é um processo de limpeza e refinamento da memória dos agentes de IA. Inspirado no sono REM humano, permite que o Claude revise interações passadas, descarte ruído e identifique padrões para melhorar seu desempenho de forma autônoma.",
+    tldr: "O Dreaming é um trabalho assíncrono onde o Claude revisa até 100 sessões passadas para reorganizar sua memória. No caso Harvey, aumentou 6x a taxa de conclusão de tarefas longas.",
+    content: "## O que e o Claude Dreams?\n\nImagine que sua agencia usa um agente de IA para gerenciar campanhas por semanas. Com o tempo, as notas desse agente ficam bagunçadas: ele guarda instrucoes antigas que ja mudaram ou solucoes de erros que nao existem mais.\n\nO Dreaming resolve isso. E um trabalho assıncrono que roda em segundo plano onde o Claude le sua memoria atual e os registros de ate 100 sessoes passadas para criar uma base de conhecimento nova, organizada e muito mais inteligente.\n\n## Por que Sonhar? A Metafora do Sono REM\n\nA Anthropic escolheu este nome de forma deliberada. Para nos humanos, o sono serve para descartar o que nao importa e fortalecer o que e relevante. Sem o sonho, a memoria do Claude se tornaria uma pilha de anotacoes confusas.\n\n- Auto Memory: e o cerebro acordado tomando notas enquanto trabalha.\n- Auto Dream: e o cerebro dormindo, limpando a bagunça e transformando notas curtas em conhecimento de longo prazo.\n\n## As 4 Fases do Sonho da IA\n\n1. Orientacao: o Claude mapeia o que ja sabe e abre o indice de memoria para entender a organizacao atual.\n2. Coleta de Sinais: ele busca nos historicos por correcoes feitas pelo usuario, decisoes importantes e temas que se repetem.\n3. Consolidacao: e o nucleo do processo. Ele une entradas duplicadas e transforma datas relativas como ontem em datas absolutas, evitando confusao temporal.\n4. Poda e Indexacao: ele atualiza o indice principal MEMORY.md, removendo links para arquivos que nao existem mais e reordenando tudo por relevancia.\n\n## Beneficios Estrategicos para Agencias\n\nAgencias de publicidade que operam em ciclos longos ou com Sistemas Multiagentes sao as maiores beneficiadas.\n\n- Aprendizado com Erros: o Dreaming identifica falhas recorrentes e ajusta a memoria operacional para nao repeti-las.\n- Eficiencia de ROI: agentes que sonham conseguem resolver tarefas complexas com muito menos orientacao humana. No caso da empresa Harvey, o uso do Dreaming aumentou em 6 vezes a taxa de conclusao de tarefas em sessoes longas.\n- Seguranca de Dados: o processo e executado em ambiente protegido e nao altera o codigo original do seu projeto.\n\n## Como e quando isso acontece?\n\nO Dreaming nao acontece o tempo todo para nao gastar creditos desnecessariamente. Ele exige duas condicoes simultaneas para disparar automaticamente:\n\n- Pelo menos 24 horas desde a ultima consolidacao.\n- Mais de 5 sessoes de trabalho realizadas nesse periodo.\n\nDica de Growth: se voce acabou de fazer uma mudanca gigantesca na estrutura das suas campanhas, voce pode forcar um sonho manual pedindo ao Claude: Por favor, revise nossa memoria e consolide o que aprendemos.\n\n## FAQ\n\nO Dreaming gasta tokens? Sim, ele e cobrado pelas taxas padrao de API dos modelos Opus 4.7 ou Sonnet 4.6.\n\nA IA fica consciente? Nao. E apenas uma analise profunda de dados feita em segundo plano para otimizar a inteligencia.",
+    imageUrl: "/blog-images/post14-claude-dreaming.png",
+    imageAlt: "Claude Dreaming: processo de consolidacao de memoria da IA em 4 fases",
+    category: "Tecnologia",
+    author: "Paulo Cardoni",
+    date: "2026-05-07",
+    readTime: 7,
+    tags: ["Claude Dreaming", "memoria IA", "Auto Memory", "agentes", "Anthropic", "research preview"],
+    seoDescription: "Entenda o Claude Dreaming: o processo inspirado no sono REM que faz a IA reorganizar sua memória automaticamente para aprender com erros e melhorar o desempenho.",
+    seoKeywords: ["Claude Dreaming", "Auto Memory Claude", "memoria agente IA", "Anthropic research preview 2026"]
   }
 ];
 
