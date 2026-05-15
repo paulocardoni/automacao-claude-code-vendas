@@ -698,6 +698,23 @@ Não. O consumo só ocorre durante o processamento de envios e respostas.
     tags: ["Routines", "Claude Code", "MCP", "Meta Ads", "Google Ads", "automacao", "relatorios"],
     seoDescription: "Como criar Routines no Claude Code para automatizar monitoramento de campanhas, relatorios e auditoria de criativos com MCP.",
     seoKeywords: ["Claude Code Routines", "piloto automatico ads", "automatizar campanhas IA", "MCP Meta Ads rotina 2026"]
+  },
+  {
+    id: "22",
+    slug: "playwright-mcp-olhos-claude-auditar-pixels-landing-pages",
+    title: "Playwright MCP: Como dar Olhos ao Claude para Auditar seu Tráfego e Pixels",
+    excerpt: "O Playwright MCP permite ao Claude operar um navegador como um humano, em velocidade de máquina. Para gestores de tráfego, isso significa verificar Pixels automaticamente, auditar landing pages visualmente e extrair dados de paineis sem API.",
+    tldr: "Playwright MCP da olhos e maos ao Claude no navegador. Verifique Pixels, tire screenshots de QA e monitore concorrentes automaticamente via rotinas do Claude Code.",
+    content: "## O que e o Playwright MCP?\n\nSe o Claude Code e o cerebro que processa dados, o Playwright MCP sao os olhos e as maos da IA no navegador. O Playwright e uma tecnologia de ponta usada para automacao de navegadores como Chrome, Firefox e Safari. Atraves do Model Context Protocol, o Claude ganha a habilidade de abrir sites, clicar em botoes, tirar prints de tela e ler o codigo-fonte de qualquer pagina em tempo real.\n\n## 3 Aplicacoes na Rotina do Gestor de Trafego\n\n### 1. Auditoria de Sinais (Pixel e CAPI)\nUm dos maiores pesadelos do gestor e descobrir que o Pixel parou de marcar conversoes apos uma atualizacao no site. Com o Playwright MCP, voce pode criar uma Routine onde o Claude visita sua landing page toda manha, simula uma compra e verifica no console do navegador se o evento Purchase foi disparado corretamente.\n\nComando sugerido: Claude, acesse a URL e verifique se o Pixel ID esta disparando o evento de Lead ao preencher o formulario.\n\n### 2. QA Visual de Landing Pages\nSistemas como o Meta Advantage+ exigem muitos criativos e variacoes de paginas. O Playwright permite que o Claude tire screenshots de pagina inteira para verificar se o carregamento em dispositivos moveis esta correto ou se algum elemento esta cobrindo o botao de CTA. Se algo estiver errado, o Claude te avisa no terminal antes mesmo de voce gastar o primeiro real em anuncios.\n\n### 3. Monitoramento de Concorrencia e Dashboards sem API\nNem toda ferramenta de marketing entrega dados via API. O Playwright MCP permite que o Claude faca login em plataformas externas, navegue ate os relatorios e extraia as metricas necessarias para consolidar seu relatorio semanal, reduzindo o trabalho manual de copiar e colar.\n\n## Funcao Local vs Remota no Playwright\n\n- Local: ele abre o navegador no seu proprio computador via Chrome Relay, usando seus cookies e sessoes ja logadas, o que facilita o acesso a contas protegidas por senha.\n- Remota: a IA utiliza um navegador em nuvem para realizar tarefas em segundo plano, ideal para monitoramento constante 24/7 sem ocupar sua maquina.\n\n## Como Instalar e Comecar\n\nPara adicionar essa habilidade ao seu Claude Code, utilize o comando de instalacao de skills:\n\nnpx skills add playwright-browser-automation\n\nDica de Growth: Combine o Playwright com a habilidade Dreaming do Claude. Peca para a IA sonhar sobre os prints de tela coletados durante a semana para identificar se existe alguma correlacao visual entre as paginas que mais convertem.\n\n## Conclusao\n\nO Playwright MCP transforma o gestor de trafego de um conferidor de links em um Engenheiro de Marketing. Em 2026, a agencia que nao automatiza a validacao visual e tecnica de seus funis esta apenas esperando pelo proximo erro humano que destruira o ROAS do cliente.",
+    imageUrl: "/blog-images/post22-playwright-mcp.png",
+    imageAlt: "Claude Code com Playwright MCP verificando Pixel Meta e fazendo QA visual de landing page",
+    category: "Tutorial",
+    author: "Paulo Cardoni",
+    date: "2026-05-12",
+    readTime: 6,
+    tags: ["Playwright", "MCP", "Claude Code", "Pixel", "QA", "landing page", "auditoria"],
+    seoDescription: "Como usar o Playwright MCP para dar olhos ao Claude Code. Verifique Pixels, audite landing pages e monitore campanhas automaticamente.",
+    seoKeywords: ["Playwright MCP Claude Code", "verificar Pixel automatico", "QA landing page IA", "auditoria trafego Claude 2026"]
   }
 ];
 
