@@ -1,6 +1,6 @@
-﻿export default function TopBar() {
+export default function TopBar() {
   const handleScroll = () => {
-    const el = document.getElementById("pricing");
+    const el = document.getElementById("lista-vip");
     if (el) el.scrollIntoView({ behavior: "smooth" });
   };
 
@@ -10,14 +10,13 @@
         onClick={handleScroll}
         className="inline-flex items-center gap-2 font-semibold text-xs sm:text-sm hover:opacity-90 transition-opacity"
       >
-        <span>⚡</span>
+        <span>🚀</span>
         <span>
-          <span className="hidden sm:inline">Oferta de lançamento — </span>
-          <span className="font-bold">77 vagas por R$42,90</span>
-          <span className="hidden sm:inline"> · depois sobe para R$127,90</span>
+          <span className="font-bold">Volume 2 chegando</span>
+          <span className="hidden sm:inline"> — Entre na lista VIP e seja o primeiro a saber</span>
         </span>
         <span className="bg-white text-orange-600 font-bold text-xs px-2 py-0.5 rounded-full ml-1">
-          GARANTIR →
+          QUERO SABER →
         </span>
       </button>
     </div>
