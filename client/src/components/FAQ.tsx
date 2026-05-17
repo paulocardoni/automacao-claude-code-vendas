@@ -1,52 +1,45 @@
-﻿import {
+import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-const HOTMART_URL = "https://pay.hotmart.com/P105267357Y?off=skjyhsxd&hotfeature=51";
-
 const faqs = [
   {
     id: "1",
-    question: "Preciso saber programar para fazer o curso?",
-    answer: "não. Este curso foi criado por um gestor de trafego, para gestores de trafego. Você recebe os comandos prontos — e aprender a usar o Claude Code e parte do conteudo. Se Você sabe abrir um terminal e copiar um texto, Você consegue.",
+    question: "O curso ainda está disponível para compra?",
+    answer: "As vagas do Volume 1 foram preenchidas e o carrinho está fechado. O Volume 2 está em desenvolvimento com conteúdo ainda mais avançado. Entre na lista VIP para ser avisado em primeira mão quando abrir.",
   },
   {
     id: "2",
-    question: "Serve para iniciante em trafego pago?",
-    answer: "não. Você precisa ja operar campanhas no dia a dia — seja Google Ads, Meta Ads ou ambos. O curso ensina a automatizar o que Você ja faz, não a comecar do zero em midia paga.",
+    question: "Qual a diferença entre o Volume 1 e o Volume 2?",
+    answer: "O Volume 1 cobre os fundamentos da automação com Claude Code para gestores de tráfego — relatórios, campanhas e análises. O Volume 2 será uma formação avançada focada em sistemas multiagentes, integração com MCPs e construção de ecossistemas de automação completos para agências.",
   },
   {
     id: "3",
-    question: "O Google ou Meta podem banir minha conta por usar automacao?",
-    answer: "não. Usamos exclusivamente as APIs oficiais do Google e do Meta — as mesmas que ferramentas como Optmyzr e Adveronix usam. Você não viola nenhum termo de serviço. Você esta apenas automatizando o que ja pode fazer manualmente.",
+    question: "Preciso ter feito o Volume 1 para fazer o Volume 2?",
+    answer: "Recomendamos, mas não é obrigatório. O Volume 2 terá módulos introdutórios que permitem a gestores experientes iniciarem diretamente. Detalhes serão divulgados para quem está na lista VIP.",
   },
   {
     id: "4",
-    question: "Em quanto tempo vejo resultado?",
-    answer: "No primeiro modulo Você ja consegue rodar sua primeira automacao. Resultados praticos de economia de tempo aparecem na primeira semana. Impacto em performance de campanha varia conforme volume, mas gestores relatam de 2 a 4 semanas para sentir diferenca.",
+    question: "Preciso saber programar para fazer o curso?",
+    answer: "Não. Este curso foi criado por um gestor de tráfego, para gestores de tráfego. Você recebe os comandos prontos e aprende a usar o Claude Code do zero — se sabe abrir um terminal e copiar um texto, consegue.",
   },
   {
     id: "5",
-    question: "O acesso e vitalício?",
-    answer: "Sim. Paga uma vez e o conteudo e seu para sempre. Sem mensalidade, sem renovacao, sem surpresa na fatura.",
+    question: "Qual o prazo para lançar o Volume 2?",
+    answer: "Ainda não temos uma data definida. Quem está na lista VIP será avisado em primeira mão e terá acesso a condições exclusivas de lançamento antes da abertura ao público geral.",
   },
   {
     id: "6",
-    question: "Tem suporte se eu travar em algo?",
-    answer: "Sim. Você tem suporte por email por 30 dias apos a compra. O material foi estruturado para ser autoexplicativo, mas se travar em qualquer etapa, estou disponivel para ajudar.",
+    question: "Já tenho o Volume 1. Como acesso?",
+    answer: "Acesse sua conta na Hotmart com o email usado na compra. Seu acesso ao Volume 1 é vitalício — sem prazo de expiração.",
   },
   {
     id: "7",
-    question: "E se eu não gostar?",
-    answer: "7 dias de garantia total sem perguntas. E política da Hotmart — Você solicita o reembolso direto pela plataforma e recebe de volta. Sem burocracia, sem precisar justificar.",
-  },
-  {
-    id: "8",
-    question: "Por que o preco vai subir?",
-    answer: "Este e o preco de lançamento para os primeiros 100 alunos. Quando essas vagas acabarem, o valor passa para R$127,90 — que e o preco definitivo do curso. não e gatilho falso: e a forma que escolhi de recompensar quem entra cedo.",
+    question: "Como entrar na lista VIP?",
+    answer: "Basta preencher o formulário com seu nome e email nesta página. Você receberá um email de confirmação e será avisado assim que o Volume 2 abrir — com condições exclusivas para quem está na lista.",
   },
 ];
 
@@ -58,7 +51,7 @@ export default function FAQ() {
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2" style={{ fontFamily: "'Poppins', sans-serif" }}>
             Ainda tem <span className="text-orange-400">dúvidas?</span>
           </h2>
-          <p className="text-sm text-gray-400">As perguntas que mais chegam antes da compra</p>
+          <p className="text-sm text-gray-400">As perguntas que mais chegam</p>
         </div>
 
         <Accordion type="single" collapsible className="space-y-2 sm:space-y-3 mb-10">
@@ -79,29 +72,14 @@ export default function FAQ() {
         </Accordion>
 
         <div className="text-center p-6 rounded-xl border border-orange-500/20 bg-orange-500/5">
-          <p className="text-white font-bold text-base sm:text-lg mb-1">
-            Ainda ficou alguma duvida?
-          </p>
-          <p className="text-gray-400 text-sm mb-4">
-            Manda um email antes de comprar — respondo pessoalmente.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-3 justify-center items-center">
-            <a
-              href="mailto:atendimento.claudetrafego@gmail.com"
-              className="text-orange-400 hover:text-orange-300 font-semibold text-sm transition-colors"
-            >
-              atendimento.claudetrafego@gmail.com
-            </a>
-            <span className="hidden sm:block text-gray-600">·</span>
-            <a
-              href={HOTMART_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-orange-500 hover:bg-orange-600 text-white font-bold text-sm px-6 py-3 rounded-lg transition-all duration-200 active:scale-95"
-            >
-              GARANTIR MINHA VAGA AGORA
-            </a>
-          </div>
+          <p className="text-white font-bold text-base sm:text-lg mb-1">Ficou alguma dúvida?</p>
+          <p className="text-gray-400 text-sm mb-3">Fala com a gente por email.</p>
+          <a
+            href="mailto:atendimento.claudetrafego@gmail.com"
+            className="text-orange-400 hover:text-orange-300 font-semibold text-sm transition-colors"
+          >
+            atendimento.claudetrafego@gmail.com
+          </a>
         </div>
       </div>
     </section>
