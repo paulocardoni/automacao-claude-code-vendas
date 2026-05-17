@@ -1,18 +1,16 @@
-﻿import { CheckCircle2, Zap } from "lucide-react";
-
-const HOTMART_URL = "https://pay.hotmart.com/P105267357Y?off=skjyhsxd&hotfeature=51";
+import { CheckCircle2, Mail } from "lucide-react";
 
 const learnings = [
   {
     title: "Relatórios automáticos em minutos",
-    description: "O que Você faz em 3 horas no Excel, o Claude faz em 3 minutos. Dashboards de performance prontos para o cliente sem tocar numa planilha."
+    description: "O que você faz em 3 horas no Excel, o Claude faz em 3 minutos. Dashboards de performance prontos para o cliente sem tocar numa planilha."
   },
   {
     title: "Campanhas no piloto automático",
     description: "Pausas, ajustes de lance e duplicações sem abrir o Ads Manager. Use MCP conectado direto nas APIs do Google e Meta."
   },
   {
-    title: "páginas e ferramentas sem dev",
+    title: "Páginas e ferramentas sem dev",
     description: "Crie landing pages, scripts e ferramentas internas com Claude Code. Sem contratar ninguém, sem esperar dias de aprovação."
   },
   {
@@ -25,20 +23,25 @@ const learnings = [
   },
   {
     title: "Planejamento e organização com IA",
-    description: "Monte planos de mídia, priorize tarefas e organize a Operação da agência com agentes que entendem o contexto do seu negócio."
+    description: "Monte planos de mídia, priorize tarefas e organize a operação da agência com agentes que entendem o contexto do seu negócio."
   },
 ];
 
 export default function WhatYouWillLearn() {
+  const handleScroll = () => {
+    const el = document.getElementById("lista-vip") || document.getElementById("pricing");
+    if (el) el.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <section className="py-10 sm:py-14 md:py-16 px-4 sm:px-6 md:px-8">
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-8 sm:mb-12">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3" style={{ fontFamily: "'Poppins', sans-serif" }}>
-            O que Você vai <span className="text-orange-400">conseguir fazer</span>
+            O que você vai <span className="text-orange-400">conseguir fazer</span>
           </h2>
           <p className="text-sm sm:text-base text-gray-400 max-w-2xl mx-auto">
-            não e lista de aulas. É o que muda na sua rotina na semana que Você começar.
+            Não é lista de aulas. É o que muda na sua rotina na semana que você começar.
           </p>
         </div>
 
@@ -57,13 +60,14 @@ export default function WhatYouWillLearn() {
         </div>
 
         <div className="text-center">
-          <a href={HOTMART_URL} target="_blank" rel="noopener noreferrer">
-            <button className="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 active:scale-95 text-white font-bold text-sm sm:text-base px-8 py-4 rounded-lg transition-all duration-200">
-              <Zap className="h-4 w-4" />
-              QUERO APRENDER ISSO AGORA
-            </button>
-          </a>
-          <p className="text-xs text-gray-500 mt-2">77 vagas com preço de lançamento — R$42,90</p>
+          <button
+            onClick={handleScroll}
+            className="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 active:scale-95 text-white font-bold text-sm sm:text-base px-8 py-4 rounded-lg transition-all duration-200"
+          >
+            <Mail className="h-4 w-4" />
+            QUERO ENTRAR NA LISTA VIP
+          </button>
+          <p className="text-xs text-gray-500 mt-2">Volume 2 em breve — seja avisado primeiro</p>
         </div>
       </div>
     </section>
