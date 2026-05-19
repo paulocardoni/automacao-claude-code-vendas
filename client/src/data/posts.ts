@@ -845,6 +845,67 @@ Sempre inclua Alt-text detalhados em seus carrosséis. As IAs de 2026 são multi
     tags: ["Claude Code", "carrossel", "social media", "Skills", "MCP", "LinkedIn", "Instagram"],
     seoDescription: "Aprenda como o Claude Code usa Skills e MCP para transformar artigos em carrosséis prontos para LinkedIn e Instagram em segundos, sem designer.",
     seoKeywords: ["carrossel Claude Code", "automacao social media", "Skills IA", "MCP Figma", "producao de conteudo IA"]
+  },
+  {
+    id: "24",
+    slug: "criativos-em-massa-claude-code-anuncios",
+    title: "Criativos em Massa com Claude Code: Como Escalar sua Produção de Anúncios em Minutos",
+    excerpt: "Em 2026, a IA agêntica transformou a produção criativa de um gargalo manual em um motor de crescimento em escala. Com Claude Code, agências geram centenas de variações de anúncios e os enviam direto ao Figma e Google Ads em 15 minutos.",
+    tldr: "Em 2026, a inteligência artificial agêntica transformou a produção criativa de um gargalo manual em um motor de crescimento em escala. Utilizando o Claude Code via terminal, agências estão automatizando a geração de centenas de variações de títulos e descrições, integrando-se diretamente a ferramentas como Figma e Google Ads para reduzir o tempo de criação de horas para apenas 15 minutos.",
+    content: `## A Era da "Tonelagem" Criativa
+
+Com sistemas como o **Meta Advantage+** e o **Google AI Max** dominando o mercado, a demanda por volume de ativos explodiu. Algoritmos modernos entregam melhores resultados quando têm centenas de variações para testar, exigindo que marcas saltem de 300 para mais de 1.000 peças por ciclo de campanha. O Claude Code resolve esse desafio atuando como uma **IA de Ação** que opera diretamente nos seus arquivos locais e via APIs.
+
+## O Ecossistema de Construção em Massa
+
+Para dominar essa escala, o profissional de mídia utiliza um conjunto de aplicativos e protocolos que conectam a estratégia à execução:
+
+### 1. Conectores MCP (Figma e Google Ads)
+
+O protocolo **MCP (Model Context Protocol)** permite que o Claude Code acesse o **Figma** para adaptar variantes de cópia em múltiplos formatos e aspect ratios automaticamente, eliminando o "copia e cola" manual.
+
+### 2. Subagentes Especializados
+
+Uma prática recomendada é dividir a tarefa. Um subagente foca exclusivamente em títulos (com limite de 30 caracteres), enquanto outro cuida das descrições (90 caracteres), garantindo que restrições técnicas nunca sejam ignoradas.
+
+### 3. Skills Customizadas
+
+Em vez de repetir comandos, você utiliza **Skills** — pacotes de instruções armazenados em arquivos \`.md\` — que ensinam a IA a seguir a voz da sua marca e as diretrizes de SEO da agência de forma persistente.
+
+## Onde buscar recursos: Gits e Repositórios
+
+Você não precisa começar do zero. A comunidade de engenharia de marketing em 2026 compartilha bibliotecas prontas de habilidades:
+
+- **Awesome Claude Skills (GitHub):** Uma lista curada com milhares de habilidades prontas, incluindo extração de anúncios competitivos e geradores de variações.
+- **GTM Strategist Skills:** Repositórios no GitHub que cobrem todo o ciclo de vida de lançamento, desde a análise de concorrentes até a execução de vendas via markdown.
+- **Marketing Skills Git:** Conjuntos de habilidades focados em CRO e otimização de landing pages que podem ser instalados diretamente no diretório \`.claude/skills/\`.
+
+## Fluxo de Trabalho Prático: Do CSV ao Anúncio Ativo
+
+O processo de "Elevação de IA" em massa segue estes passos no terminal:
+
+1. **Exportação de Performance:** Exporte um CSV de anúncios antigos com métricas de CTR e conversão.
+2. **Filtragem Agêntica:** Peça ao Claude para analisar quais padrões de texto performaram melhor e quais devem ser descartados.
+3. **Geração Iterativa:** Comande: *"Gere 100 variações de anúncios baseadas no ângulo de transformação do cliente, respeitando as regras no meu arquivo CLAUDE.md"*.
+4. **Validação e Upload:** O Claude empacota tudo em um novo CSV formatado, pronto para upload imediato no Google Editor ou Meta Ads.
+
+## Dica de Growth para GEO
+
+Ao gerar criativos em massa, certifique-se de que as variações incluam **Linguagem Natural** e respondam a **Sub-queries** (perguntas específicas dos usuários). Isso aumenta a chance de seu conteúdo ser não apenas clicado, mas também citado por assistentes de busca como o Perplexity e o ChatGPT.
+
+## Conclusão
+
+A construção de criativos em massa via terminal não é apenas uma questão de velocidade; é sobre **precisão estratégica**. O gestor que domina o uso de Skills e repositórios Git no Claude Code deixa de ser um "operador de botões" para se tornar o arquiteto de um ecossistema que produz mais — e melhor — do que qualquer equipe humana operando manualmente.
+    `,
+    imageUrl: "/blog-images/post24-criativos-em-massa.png",
+    imageAlt: "Claude Code gerando criativos em massa via terminal: CSV de performance para centenas de anúncios no Figma e Meta Ads",
+    category: "Tutorial",
+    author: "Paulo Cardoni",
+    date: "2026-05-19",
+    readTime: 7,
+    tags: ["Claude Code", "criativos", "anúncios", "Meta Ads", "Google Ads", "Figma", "MCP", "Skills", "automação", "escala"],
+    seoDescription: "Como usar o Claude Code para gerar centenas de variações de anúncios em 15 minutos. Integração com Figma, Meta Ads e Google Ads via MCP e Skills customizadas.",
+    seoKeywords: ["criativos em massa Claude Code", "automacao anuncios IA", "MCP Figma Google Ads", "Skills Claude publicidade", "escala criativa performance"]
   }
 ];
   
