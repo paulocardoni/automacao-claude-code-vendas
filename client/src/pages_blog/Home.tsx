@@ -1,9 +1,41 @@
 ﻿import { Link } from "wouter";
+import { useEffect } from "react";
 import { getAllPosts } from "@/data/posts";
 import { ChevronRight, Calendar, Clock, Tag, Zap, Twitter, Instagram, Music } from "lucide-react";
 
 export default function Home() {
   const posts = getAllPosts();
+
+  useEffect(() => {
+    // OG tags específicas para o blog
+    document.title = "Blog Formação Agêntica | Automação com IA para Gestores de Tráfego";
+
+    const setMeta = (selector: string, attr: string, value: string) => {
+      let el = document.querySelector(selector) as HTMLMetaElement | null;
+      if (!el) {
+        el = document.createElement("meta");
+        const [key, val] = selector.replace("meta[", "").replace("]", "").split('="');
+        el.setAttribute(key, val.replace('"', ""));
+        document.head.appendChild(el);
+      }
+      el.setAttribute(attr, value);
+    };
+
+    setMeta('meta[property="og:title"]', "content", "Blog Formação Agêntica | Claude Code, MCP e Automação com IA");
+    setMeta('meta[property="og:description"]', "content", "Tutoriais, estratégias e casos reais sobre Claude Code, MCP, automação e performance com IA para gestores de tráfego.");
+    setMeta('meta[property="og:image"]', "content", "https://formacaoagentica.com.br/og-blog.png");
+    setMeta('meta[property="og:url"]', "content", "https://formacaoagentica.com.br/blog");
+    setMeta('meta[name="twitter:image"]', "content", "https://formacaoagentica.com.br/og-blog.png");
+    setMeta('meta[name="twitter:title"]', "content", "Blog Formação Agêntica | Claude Code, MCP e Automação com IA");
+    setMeta('meta[name="description"]', "content", "Tutoriais, estratégias e casos reais sobre Claude Code, MCP, automação e performance com IA para gestores de tráfego.");
+
+    // Restaura ao sair da página
+    return () => {
+      document.title = "Automação com IA para Gestores de Tráfego | Formação Agêntica";
+      setMeta('meta[property="og:image"]', "content", "https://formacaoagentica.com.br/og-image.png");
+      setMeta('meta[name="twitter:image"]', "content", "https://formacaoagentica.com.br/og-image.png");
+    };
+  }, []);
 
   return (
     <div className="min-h-screen bg-background">
