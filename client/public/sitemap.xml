@@ -16,7 +16,7 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- Posts do blog -->
+  <!-- Posts do blog (22 posts) -->
   <url>
     <loc>https://formacaoagentica.com.br/blog/criativos-em-massa-claude-code-anuncios</loc>
     <lastmod>2026-05-19</lastmod>
@@ -24,27 +24,7 @@
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://formacaoagentica.com.br/blog-images/post24-criativos-em-massa.png</image:loc>
-      <image:title>Criativos em Massa com Claude Code</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://formacaoagentica.com.br/blog/playwright-mcp-olhos-claude-auditar-pixels-landing-pages</loc>
-    <lastmod>2026-05-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://formacaoagentica.com.br/blog-images/post22-playwright-mcp.png</image:loc>
-      <image:title>Playwright MCP: Olhos ao Claude para Auditar Pixels e Landing Pages</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://formacaoagentica.com.br/blog/claude-code-routines-piloto-automatico-campanhas-ads</loc>
-    <lastmod>2026-05-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://formacaoagentica.com.br/blog-images/post21-routines-ads.png</image:loc>
-      <image:title>Claude Code Routines: Piloto Automático para Campanhas de Ads</image:title>
+      <image:title>Claude Code gerando criativos em massa via terminal: CSV de performance para centenas de anúncios no Figma e Meta Ads</image:title>
     </image:image>
   </url>
   <url>
@@ -54,37 +34,27 @@
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://formacaoagentica.com.br/blog-images/post20-graphify-tokens.png</image:loc>
-      <image:title>Graphify: Economia de 71x em Tokens com Claude Code</image:title>
+      <image:title>Comparativo antes e depois do Graphify: 10000 tokens versus 140 tokens com compressao de grafo</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://formacaoagentica.com.br/blog/agencia-autonoma-ecossistema-marketing-claude-code</loc>
-    <lastmod>2026-05-10</lastmod>
+    <loc>https://formacaoagentica.com.br/blog/claude-code-routines-piloto-automatico-campanhas-ads</loc>
+    <lastmod>2026-05-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://formacaoagentica.com.br/blog-images/post19-agencia-autonoma.png</image:loc>
-      <image:title>Agência Autônoma: Ecossistema de Marketing com Claude Code</image:title>
+      <image:loc>https://formacaoagentica.com.br/blog-images/post21-routines-ads.png</image:loc>
+      <image:title>Relógio digital integrado ao terminal Claude Code com rotinas programadas para Meta Ads e Google Ads</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://formacaoagentica.com.br/blog/alem-do-chat-6-maneiras-dominar-claude-agencia-2026</loc>
-    <lastmod>2026-05-10</lastmod>
+    <loc>https://formacaoagentica.com.br/blog/playwright-mcp-olhos-claude-auditar-pixels-landing-pages</loc>
+    <lastmod>2026-05-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://formacaoagentica.com.br/blog-images/post18-6-maneiras-claude.png</image:loc>
-      <image:title>Além do Chat: 6 Maneiras de Dominar o Claude na Agência em 2026</image:title>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://formacaoagentica.com.br/blog/como-criar-agente-ia-whatsapp-passo-a-passo</loc>
-    <lastmod>2026-05-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://formacaoagentica.com.br/blog-images/post17-whatsapp-guia.png</image:loc>
-      <image:title>Como Criar um Agente de IA no WhatsApp Passo a Passo</image:title>
+      <image:loc>https://formacaoagentica.com.br/blog-images/post22-playwright-mcp.png</image:loc>
+      <image:title>Claude Code com Playwright MCP verificando Pixel Meta e fazendo QA visual de landing page</image:title>
     </image:image>
   </url>
   <url>
@@ -94,27 +64,37 @@
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://formacaoagentica.com.br/blog-images/post16-whatsapp-agents.png</image:loc>
-      <image:title>WhatsApp Agents: Conversões 7x Acima do Email em 2026</image:title>
+      <image:title>Grafico comparando conversoes WhatsApp Agent versus E-mail Marketing em 2026</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://formacaoagentica.com.br/blog/ia-demissoes-gerente-agentes-blindar-carreira</loc>
-    <lastmod>2026-05-07</lastmod>
+    <loc>https://formacaoagentica.com.br/blog/como-criar-agente-ia-whatsapp-passo-a-passo</loc>
+    <lastmod>2026-05-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://formacaoagentica.com.br/blog-images/post15-gerente-agentes.png</image:loc>
-      <image:title>IA e Demissões: Como Blindar sua Carreira sendo Gerente de Agentes</image:title>
+      <image:loc>https://formacaoagentica.com.br/blog-images/post17-whatsapp-guia.png</image:loc>
+      <image:title>Guia passo a passo para criar agente de IA no WhatsApp com Claude MCP e n8n</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://formacaoagentica.com.br/blog/claude-dreaming-ia-aprende-sozinha-dorme</loc>
-    <lastmod>2026-05-07</lastmod>
+    <loc>https://formacaoagentica.com.br/blog/alem-do-chat-6-maneiras-dominar-claude-agencia-2026</loc>
+    <lastmod>2026-05-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://formacaoagentica.com.br/blog-images/post14-claude-dreaming.png</image:loc>
-      <image:title>Claude Dreaming: Como a IA Aprende Sozinha Enquanto Dorme</image:title>
+      <image:loc>https://formacaoagentica.com.br/blog-images/post18-6-maneiras-claude.png</image:loc>
+      <image:title>Diagrama das 6 maneiras de usar Claude na agencia em 2026: Chat Desktop WhatsApp Code Plugins Skills</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://formacaoagentica.com.br/blog/agencia-autonoma-ecossistema-marketing-claude-code</loc>
+    <lastmod>2026-05-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://formacaoagentica.com.br/blog-images/post19-agencia-autonoma.png</image:loc>
+      <image:title>Ecossistema de agencia autonoma com Claude Code conectando departamentos digitais via MCP</image:title>
     </image:image>
   </url>
   <url>
@@ -124,27 +104,27 @@
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://formacaoagentica.com.br/blog-images/post13-anthropic-spacex.png</image:loc>
-      <image:title>Limites Dobrados: Parceria Anthropic e SpaceX com Claude Code</image:title>
+      <image:title>Parceria Anthropic SpaceX Colossus 1 dobra limites do Claude Code em maio 2026</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://formacaoagentica.com.br/blog/claude-cowork-equipe-digital-agentes-agencia</loc>
-    <lastmod>2026-05-06</lastmod>
+    <loc>https://formacaoagentica.com.br/blog/claude-dreaming-ia-aprende-sozinha-dorme</loc>
+    <lastmod>2026-05-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://formacaoagentica.com.br/blog-images/post12-claude-cowork.png</image:loc>
-      <image:title>Claude Cowork: Equipe Digital de Agentes para sua Agência</image:title>
+      <image:loc>https://formacaoagentica.com.br/blog-images/post14-claude-dreaming.png</image:loc>
+      <image:title>Claude Dreaming: processo de consolidacao de memoria da IA em 4 fases</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://formacaoagentica.com.br/blog/meta-ads-ai-connectors-claude-code-gerenciador-anuncios</loc>
-    <lastmod>2026-05-06</lastmod>
+    <loc>https://formacaoagentica.com.br/blog/ia-demissoes-gerente-agentes-blindar-carreira</loc>
+    <lastmod>2026-05-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://formacaoagentica.com.br/blog-images/post11-meta-connectors.png</image:loc>
-      <image:title>Meta Ads AI Connectors: Claude Code e Gerenciador de Anúncios</image:title>
+      <image:loc>https://formacaoagentica.com.br/blog-images/post15-gerente-agentes.png</image:loc>
+      <image:title>Profissional de marketing como gerente de agentes de IA, coordenando sistema multiagente</image:title>
     </image:image>
   </url>
   <url>
@@ -154,7 +134,27 @@
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://formacaoagentica.com.br/blog-images/post10-carrossel.png</image:loc>
-      <image:title>O Fim da Tela em Branco: Claude Code Faz Todos os Carrosséis</image:title>
+      <image:title>Fluxo do Claude Code transformando artigo em carrosséis</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://formacaoagentica.com.br/blog/meta-ads-ai-connectors-claude-code-gerenciador-anuncios</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://formacaoagentica.com.br/blog-images/post11-meta-connectors.png</image:loc>
+      <image:title>Meta Ads AI Connectors integrando Claude Code ao Gerenciador de Anúncios via MCP</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://formacaoagentica.com.br/blog/claude-cowork-equipe-digital-agentes-agencia</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://formacaoagentica.com.br/blog-images/post12-claude-cowork.png</image:loc>
+      <image:title>Equipe digital de agentes Claude Cowork colaborando em fluxo de trabalho de agência</image:title>
     </image:image>
   </url>
   <url>
@@ -164,7 +164,7 @@
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://formacaoagentica.com.br/blog-images/post9-tokens.png</image:loc>
-      <image:title>Por Que os Créditos do Claude Acabam e Como Economizar</image:title>
+      <image:title>Medidor de tokens do Claude Code: guia para economizar créditos e aumentar ROI</image:title>
     </image:image>
   </url>
   <url>
@@ -192,13 +192,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://formacaoagentica.com.br/blog/geo-generative-engine-optimization</loc>
+    <loc>https://formacaoagentica.com.br/blog/claude-code-google-ads-meta-ads</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://formacaoagentica.com.br/blog/claude-code-google-ads-meta-ads</loc>
+    <loc>https://formacaoagentica.com.br/blog/geo-generative-engine-optimization</loc>
     <lastmod>2026-04-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
