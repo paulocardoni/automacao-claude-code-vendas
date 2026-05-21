@@ -43,6 +43,8 @@ const IMAGE_MAP = {
   'claude-code-routines-piloto-automatico-campanhas-ads': 'post21-routines-ads.png',
   'playwright-mcp-olhos-claude-auditar-pixels-landing-pages': 'post22-playwright-mcp.png',
   'criativos-em-massa-claude-code-anuncios': 'post24-criativos-em-massa.png',
+  'guia-definitivo-instalar-treinar-claude-code-midia': 'post25-instalar-treinar-claude-code.png',
+  'nodejs-gestores-midia-cerebro-conecta-pc-ia': 'post26-nodejs-gestores-ia.png',
 };
 
 function extractPosts(source) {

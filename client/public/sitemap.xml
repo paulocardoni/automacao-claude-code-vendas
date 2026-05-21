@@ -5,18 +5,38 @@
   <!-- Páginas principais -->
   <url>
     <loc>https://formacaoagentica.com.br/</loc>
-    <lastmod>2026-05-19</lastmod>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://formacaoagentica.com.br/blog</loc>
-    <lastmod>2026-05-19</lastmod>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <!-- Posts do blog (22 posts) -->
+  <!-- Posts do blog (24 posts) -->
+  <url>
+    <loc>https://formacaoagentica.com.br/blog/nodejs-gestores-midia-cerebro-conecta-pc-ia</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://formacaoagentica.com.br/blog-images/post26-nodejs-gestores-ia.png</image:loc>
+      <image:title>Diagrama mostrando Node.js como tradutor entre o PC do gestor e o Claude Code com fluxo de automação</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://formacaoagentica.com.br/blog/guia-definitivo-instalar-treinar-claude-code-midia</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://formacaoagentica.com.br/blog-images/post25-instalar-treinar-claude-code.png</image:loc>
+      <image:title>Terminal mostrando instalação do Claude Code com npm e configuração do CLAUDE.md para agência de mídia</image:title>
+    </image:image>
+  </url>
   <url>
     <loc>https://formacaoagentica.com.br/blog/criativos-em-massa-claude-code-anuncios</loc>
     <lastmod>2026-05-19</lastmod>

@@ -776,6 +776,142 @@ A construção de criativos em massa via terminal não é apenas uma questão de
     tags: ["Claude Code", "criativos", "anúncios", "Meta Ads", "Google Ads", "Figma", "MCP", "Skills", "automação", "escala"],
     seoDescription: "Como usar o Claude Code para gerar centenas de variações de anúncios em 15 minutos. Integração com Figma, Meta Ads e Google Ads via MCP e Skills customizadas.",
     seoKeywords: ["criativos em massa Claude Code", "automacao anuncios IA", "MCP Figma Google Ads", "Skills Claude publicidade", "escala criativa performance"]
+  },
+  {
+    id: "25",
+    slug: "guia-definitivo-instalar-treinar-claude-code-midia",
+    title: "Guia Definitivo: Como Instalar e Treinar o Claude Code para ser seu Braço Direito em Mídia",
+    excerpt: "O Claude Code não é apenas um chat — é uma IA de Ação que roda no seu computador. Este guia ensina como instalar, configurar o CLAUDE.md da sua agência e criar sua primeira equipe de Agentes especialistas em 4 passos.",
+    tldr: "O Claude Code não é apenas um chat, é uma IA de Ação que roda no seu computador e executa tarefas por você. Para um gestor de mídia, ele representa o fim do 'copia e cola' de relatórios e a automação real de anúncios. Este guia ensina como instalar a ferramenta, configurar as regras da sua agência via CLAUDE.md e criar sua primeira equipe de Agentes especialistas.",
+    content: `## Passo 1: A Instalação (Sem Medo do Terminal)
+
+O terminal é apenas uma forma de conversar com seu computador via texto. Para começar, você precisa de dois ingredientes:
+
+1. **Node.js:** É o motor gratuito que permite rodar o Claude. Baixe no site oficial e instale como qualquer programa.
+2. **O Comando Mágico:** Abra seu terminal (PowerShell no Windows ou Terminal no Mac) e cole:
+
+\`\`\`bash
+npm install -g @anthropic-ai/claude-code
+\`\`\`
+
+Após isso, digite apenas \`claude\`. O sistema abrirá seu navegador para você logar com sua conta (Pro ou Max) e pronto: a IA agora tem "mãos" para mexer nos seus arquivos.
+
+## Passo 2: O "Manual de Cultura" (O arquivo CLAUDE.md)
+
+A maneira correta de "treinar" o Claude não é dando prompts gigantes toda hora, mas usando a **persistência de contexto**. Ao iniciar um projeto com o comando \`/init\`, o Claude cria um arquivo chamado \`CLAUDE.md\`.
+
+Pense nele como o manual de treinamento do seu estagiário mais inteligente. Nele, você deve escrever:
+
+- **Guia de Voz:** "Sempre use um tom profissional, mas acessível"
+- **Regras de SEO:** "Todas as headlines devem ter no máximo 30 caracteres"
+- **Estrutura de Pastas:** "Salve os relatórios de Meta Ads sempre na pasta /Relatorios/Mensal"
+
+O Claude lerá esse arquivo no início de cada sessão, garantindo que ele nunca esqueça suas preferências.
+
+## Passo 3: Adicionando Superpoderes (Primeiros Skills)
+
+As **Skills** são pacotes de instruções para tarefas específicas. Enquanto o \`CLAUDE.md\` é a regra geral, a Skill é o especialista que você chama quando precisa.
+
+- **Como usar:** Você pode baixar Skills prontas da comunidade (como as de auditoria de SEO ou gerador de criativos para Meta) e colocá-las na pasta \`.claude/skills/\`.
+- **Por que importa:** As Skills carregam de forma "progressiva", o que significa que elas só gastam seus **tokens** (créditos) quando você realmente as ativa, economizando dinheiro e mantendo a IA focada.
+
+## Passo 4: Delegando para a sua Equipe de Agentes
+
+Em 2026, você não trabalha sozinho com uma IA. Você gerencia **Sistemas Multiagentes (MAS)**. O Claude Code permite que você crie subagentes especialistas para dividir o trabalho:
+
+1. **Agente de Análise:** Foca em ler os CSVs do Google Ads.
+2. **Agente de Redação:** Foca apenas em criar variações de headlines baseadas nos dados do primeiro agente.
+3. **Agente de QA (Qualidade):** Verifica se o trabalho dos outros dois segue o seu \`CLAUDE.md\`.
+
+Essa orquestração transforma um trabalho de **21 horas semanais** em um script que roda em apenas **4 minutos**.
+
+## Dica de Ouro para Gestores: O Modo Plano
+
+Antes de deixar a IA sair criando pastas ou editando arquivos, pressione **Shift + Tab** duas vezes para entrar no **Plan Mode**. O Claude descreverá o que pretende fazer e esperará sua aprovação. Isso evita erros e garante que você mantenha o **julgamento estratégico** — o único lugar onde a IA não pode te substituir.
+
+**Pronto para começar?** Instale o Claude hoje e peça: *"Claude, analise esta pasta de criativos e me diga quais seguem as diretrizes do meu CLAUDE.md"*. O resultado vai te surpreender.
+
+---
+
+**Nota técnica para consulta:**
+- **Tokens:** A "moeda" de processamento. 1 token ≈ 4 caracteres.
+- **MCP:** Protocolo que conecta o Claude ao Google Ads ou HubSpot em tempo real.
+- **Markdown (.md):** Formato de texto simples que a IA entende perfeitamente para ler instruções.
+    `,
+    imageUrl: "/blog-images/post25-instalar-treinar-claude-code.png",
+    imageAlt: "Terminal mostrando instalação do Claude Code com npm e configuração do CLAUDE.md para agência de mídia",
+    category: "Tutorial",
+    author: "Paulo Cardoni",
+    date: "2026-05-20",
+    readTime: 8,
+    tags: ["Claude Code", "instalação", "CLAUDE.md", "Skills", "agentes", "tutorial", "gestores de tráfego", "automação"],
+    seoDescription: "Guia passo a passo para instalar o Claude Code, configurar o CLAUDE.md da sua agência e criar sua primeira equipe de agentes de IA para automação de mídia.",
+    seoKeywords: ["instalar Claude Code", "CLAUDE.md agencia", "agentes IA midia", "automacao gestor trafego", "Claude Code tutorial portugues"]
+  },
+  {
+    id: "26",
+    slug: "nodejs-gestores-midia-cerebro-conecta-pc-ia",
+    title: "Node.js para Gestores: O \"Cérebro\" que Conecta seu PC à IA",
+    excerpt: "Se o Claude Code é seu novo colaborador digital, o Node.js é o escritório onde ele trabalha. Aprenda o que é, por que é obrigatório e como instalar em 3 minutos — sem precisar de TI.",
+    tldr: "Se o Claude Code é o seu novo colaborador digital, o Node.js é o escritório onde ele trabalha. Ele é uma ferramenta gratuita e essencial que permite que programas de IA rodem diretamente no seu computador, em vez de apenas em um navegador. Instalá-lo é o primeiro passo para transformar seu PC em uma central de automação de mídia.",
+    content: `## O que é o Node.js? (A Metáfora do Tradutor)
+
+Imagine que o seu computador fala uma língua e o Claude Code fala outra. O Node.js funciona como um **tradutor em tempo real**. Ele permite que o código JavaScript (a linguagem da web) seja entendido e executado diretamente pelo seu sistema operacional. Para um gestor de mídia, isso significa que a IA pode "tocar" seus arquivos, criar planilhas e organizar pastas localmente.
+
+## Por que ele é obrigatório para o Claude Code?
+
+O Claude Code não é um site comum; ele é uma ferramenta de linha de comando. Para que ele "ganhe vida" no seu terminal, ele precisa do motor do Node.js rodando em segundo plano. Além disso, o Node traz consigo o **NPM (Node Package Manager)**, que é como uma "loja de aplicativos" para o seu terminal, onde você baixa o Claude e todas as suas Skills de marketing.
+
+## Passo a Passo: Instalação "Vapt-Vupt"
+
+### 1. O Download Seguro
+
+Acesse o site oficial em **nodejs.org**. O site detectará automaticamente se você usa Windows ou Mac.
+
+> **Dica de Ouro:** Sempre escolha a versão **LTS (Long Term Support)**. Ela é a mais estável e recomendada para quem não quer lidar com erros técnicos inesperados.
+
+### 2. A Instalação Comum
+
+Abra o arquivo baixado e clique em "Próximo" até o fim, como qualquer outro programa. Se o Windows perguntar sobre "Tools for Native Modules", pode marcar a caixa e aceitar — isso ajuda o Claude a ser mais rápido no futuro.
+
+### 3. A Prova dos Nove (Verificação)
+
+Abra seu terminal e digite:
+
+\`\`\`bash
+node -v
+\`\`\`
+
+Se aparecer algo como \`v20.x.x\`, parabéns! O motor está ligado.
+
+## E agora? O Próximo Nível
+
+Com o Node.js instalado, seu computador agora tem as "mãos" necessárias para operar o Claude Code. O próximo passo é rodar:
+
+\`\`\`bash
+npm install -g @anthropic-ai/claude-code
+\`\`\`
+
+## Por que isso muda seu jogo em 2026?
+
+Dominar essa base técnica remove a dependência da equipe de TI. Você deixa de ser apenas um usuário de plataformas e passa a ser um **Arquiteto de Automação**, capaz de instalar conectores que puxam dados do Google Ads e Meta Ads sem precisar pedir permissão para ninguém.
+
+---
+
+**Glossário rápido:**
+- **LTS:** Versão "Porto Seguro", feita para não dar problema.
+- **NPM:** O assistente de compras do Node que instala o Claude para você.
+- **Terminal:** A janela de comando onde a mágica acontece.
+    `,
+    imageUrl: "/blog-images/post26-nodejs-gestores-ia.png",
+    imageAlt: "Diagrama mostrando Node.js como tradutor entre o PC do gestor e o Claude Code com fluxo de automação",
+    category: "Tutorial",
+    author: "Paulo Cardoni",
+    date: "2026-05-21",
+    readTime: 6,
+    tags: ["Node.js", "Claude Code", "instalação", "tutorial", "gestores de tráfego", "automação", "NPM", "terminal"],
+    seoDescription: "O que é Node.js e por que gestores de mídia precisam dele para rodar o Claude Code. Guia de instalação em 3 minutos sem precisar de TI.",
+    seoKeywords: ["Node.js para gestores", "instalar Node.js Windows", "NPM Claude Code", "automacao midia sem TI", "Node.js o que e para iniciantes"]
   }
 ];
 
