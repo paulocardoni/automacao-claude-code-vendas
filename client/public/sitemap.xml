@@ -5,18 +5,38 @@
   <!-- Páginas principais -->
   <url>
     <loc>https://formacaoagentica.com.br/</loc>
-    <lastmod>2026-05-21</lastmod>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://formacaoagentica.com.br/blog</loc>
-    <lastmod>2026-05-21</lastmod>
+    <lastmod>2026-05-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <!-- Posts do blog (24 posts) -->
+  <!-- Posts do blog (26 posts) -->
+  <url>
+    <loc>https://formacaoagentica.com.br/blog/dominar-terminal-plugins-skills-git-claude-code</loc>
+    <lastmod>2026-05-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://formacaoagentica.com.br/blog-images/post28-terminal-plugins-skills-git.png</image:loc>
+      <image:title>Terminal com comandos npx skills add, claude /plugins e claude commit — central de engenharia de marketing com Claude Code</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://formacaoagentica.com.br/blog/rastreamento-agentico-fim-tags-manuais-atribuicao-inteligente</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://formacaoagentica.com.br/blog-images/post27-rastreamento-agentico-tags-manuais.png</image:loc>
+      <image:title>Pipeline de rastreamento agêntico: diagnóstico GA4, implantação GTM via API, homologação Playwright e sentinela de inflação atribuicional</image:title>
+    </image:image>
+  </url>
   <url>
     <loc>https://formacaoagentica.com.br/blog/nodejs-gestores-midia-cerebro-conecta-pc-ia</loc>
     <lastmod>2026-05-21</lastmod>

@@ -45,6 +45,8 @@ const IMAGE_MAP = {
   'criativos-em-massa-claude-code-anuncios': 'post24-criativos-em-massa.png',
   'guia-definitivo-instalar-treinar-claude-code-midia': 'post25-instalar-treinar-claude-code.png',
   'nodejs-gestores-midia-cerebro-conecta-pc-ia': 'post26-nodejs-gestores-ia.png',
+  'rastreamento-agentico-fim-tags-manuais-atribuicao-inteligente': 'post27-rastreamento-agentico-tags-manuais.png',
+  'dominar-terminal-plugins-skills-git-claude-code': 'post28-terminal-plugins-skills-git.png',
 };
 
 function extractPosts(source) {
