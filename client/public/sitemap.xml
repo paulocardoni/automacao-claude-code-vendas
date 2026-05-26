@@ -5,18 +5,38 @@
   <!-- Páginas principais -->
   <url>
     <loc>https://formacaoagentica.com.br/</loc>
-    <lastmod>2026-05-23</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://formacaoagentica.com.br/blog</loc>
-    <lastmod>2026-05-23</lastmod>
+    <lastmod>2026-05-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <!-- Posts do blog (26 posts) -->
+  <!-- Posts do blog (28 posts) -->
+  <url>
+    <loc>https://formacaoagentica.com.br/blog/servidores-mcp-essenciais-ads-analytics-claude-code</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://formacaoagentica.com.br/blog-images/post30-servidores-mcp-ads-analytics.png</image:loc>
+      <image:title>Mapa de servidores MCP essenciais: Meta Ads, Google Ads, GA4, Mixpanel, Stape, Coupler.io e AirOps conectados ao Claude Code hub central</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://formacaoagentica.com.br/blog/morte-vaidade-dashboard-inflacao-atribuicional-claude-code</loc>
+    <lastmod>2026-05-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://formacaoagentica.com.br/blog-images/post29-inflacao-atribuicional-dashboard.png</image:loc>
+      <image:title>Balança digital mostrando 100 conversões alegadas pelo Meta e Google Ads vs 60 reais no CRM, com alerta de razão de inflação 1.67</image:title>
+    </image:image>
+  </url>
   <url>
     <loc>https://formacaoagentica.com.br/blog/dominar-terminal-plugins-skills-git-claude-code</loc>
     <lastmod>2026-05-23</lastmod>

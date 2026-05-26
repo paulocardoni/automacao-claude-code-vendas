@@ -47,6 +47,8 @@ const IMAGE_MAP = {
   'nodejs-gestores-midia-cerebro-conecta-pc-ia': 'post26-nodejs-gestores-ia.png',
   'rastreamento-agentico-fim-tags-manuais-atribuicao-inteligente': 'post27-rastreamento-agentico-tags-manuais.png',
   'dominar-terminal-plugins-skills-git-claude-code': 'post28-terminal-plugins-skills-git.png',
+  'morte-vaidade-dashboard-inflacao-atribuicional-claude-code': 'post29-inflacao-atribuicional-dashboard.png',
+  'servidores-mcp-essenciais-ads-analytics-claude-code': 'post30-servidores-mcp-ads-analytics.png',
 };
 
 function extractPosts(source) {
