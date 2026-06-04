@@ -1143,6 +1143,67 @@ A implementação desses servidores permite que o gestor realize auditorias auto
     tags: ["MCP", "Meta Ads", "Google Ads", "GA4", "Stape", "Coupler.io", "Claude Code", "analytics", "rastreamento", "automação"],
     seoDescription: "Quais servidores MCP usar no Claude Code para Ads e Analytics em 2026. Meta Ads, GA4, Stape, Coupler.io e mais — guia completo de configuração e governança.",
     seoKeywords: ["servidores MCP Claude Code", "Meta Ads MCP configurar", "GA4 MCP terminal", "Stape MCP rastreamento", "Coupler.io MCP unificar dados"]
+  },
+  {
+    id: "31",
+    slug: "producao-massa-criativos-prompts-routines-agentes-2026",
+    title: "Produção em Massa de Criativos: O Guia de Prompts e Rotinas Agênticas para 2026",
+    excerpt: "A tonelagem criativa exigida pelo Meta Advantage+ não pode ser feita manualmente. Veja como orquestrar subagentes especializados e Routines automáticas para produzir mil variações de anúncios em minutos sem perder o refino estratégico.",
+    tldr: "Em 2026, a 'tonelagem criativa' tornou-se uma exigência dos algoritmos como o Meta Advantage+. Para atender a essa demanda, gestores de tráfego estão utilizando o Claude Code e o ChatGPT não apenas para redigir textos, mas como sistemas de engenharia que operam via terminal. O segredo reside na divisão de tarefas entre subagentes e na programação de Routines que automatizam o ciclo de gerar, testar e iterar criativos.",
+    content: `## 1. A Estratégia de "Dividir para Conquistar"
+
+Um erro comum ao tentar produzir em massa é usar prompts de "mágica única" (one-shot), o que geralmente leva a falhas de contexto ou desrespeito a limites de caracteres. A abordagem de elite em 2026 envolve a **orquestração multiagente (MAS)**:
+
+- **Agente de Headlines:** Focado exclusivamente em títulos curtos (limite de 30 caracteres para Google Ads).
+- **Agente de Body Copy:** Especializado em descrições longas (90 caracteres) e ganchos persuasivos.
+- **Agente de QA (Garantia de Qualidade):** Verifica se as variações seguem o guia de voz da marca definido no seu arquivo **CLAUDE.md**.
+
+## 2. Engenharia de Prompts para Criativos Agênticos
+
+Para que o Claude ou o ChatGPT entreguem resultados de alta precisão, o prompt deve seguir o modelo **"Data-First"** (dados primeiro, instruções depois), o que melhora a qualidade da resposta em até 30%.
+
+**Elementos Essenciais do Prompt:**
+
+- **Tags XML:** Utilize tags para separar ganchos, benefícios e restrições (ex: \`<benefit>Frete Grátis</benefit>\`).
+- **Chain of Thought:** Peça explicitamente para a IA "pensar passo a passo" antes de gerar as variações.
+- **Contexto de Negócio:** Forneça dados de performance de anúncios passados (CSV) para que a IA identifique padrões vencedores antes de criar novos ângulos.
+
+## 3. Automatizando com Claude Code Routines
+
+As **Routines** no Claude Code transformam uma tarefa manual de "gerar anúncios" em um sistema autônomo. Elas são sequências de tarefas que podem ser programadas para rodar localmente (no seu computador) ou via conexões remotas com APIs de Ads.
+
+**Exemplo de Fluxo de Rotina para Gestores:**
+
+1. **Gatilho:** Toda segunda-feira às 8h, a rotina dispara.
+2. **Ação 1:** O Claude lê um CSV de performance exportado via **Coupler.io** ou **Marketing API**.
+3. **Ação 2:** A IA identifica criativos com CTR abaixo da média.
+4. **Ação 3:** Utiliza a skill de **Refinamento Iterativo** para gerar 50 novas headlines baseadas no criativo campeão do mês anterior.
+5. **Ação 4:** O agente exporta um novo arquivo pronto para upload no Google Editor ou Meta Ads Manager.
+
+## 4. O Ecossistema Técnico (Figma, Git e Skills)
+
+A integração não termina no texto. Através do protocolo **MCP (Model Context Protocol)**, o Claude Code conecta-se ao **Figma** para adaptar as novas cópias em múltiplos formatos visuais automaticamente.
+
+- **Skills de Marketing:** Instale habilidades especializadas como a \`competitive-ads-extractor\` para analisar a concorrência antes de iniciar sua produção.
+- **Git para Criativos:** Use repositórios para gerenciar versões de copy, permitindo que você dê "rollback" em ângulos que não performaram bem.
+
+## 5. O Papel do "Manager of Agents"
+
+Apesar da escala massiva, o fator humano continua sendo o árbitro final da estratégia e do julgamento estético. Em 2026, sua função não é mais escrever o anúncio, mas definir o **"Outcome"** (resultado esperado): uma rubrica que descreve o sucesso, permitindo que a IA avalie o próprio trabalho e tente novamente até atingir o padrão de excelência da sua agência.
+
+## Conclusão
+
+A produção em massa via prompts estruturados e rotinas automáticas reduz o tempo de criação de horas para poucos minutos. Ao orquestrar esses agentes, o gestor de tráfego deixa de ser um "fazedor" para se tornar o arquiteto de uma fábrica de inteligência criativa que nunca dorme.
+    `,
+    imageUrl: "/blog-images/post31-producao-massa-criativos-routines.png",
+    imageAlt: "Fluxo de routine semanal automatizada: 3 subagentes (Headlines, Body Copy, QA) + pipeline de 4 passos do CSV à exportação de anúncios",
+    category: "Tutorial",
+    author: "Paulo Cardoni",
+    date: "2026-05-27",
+    readTime: 8,
+    tags: ["criativos em massa", "routines", "multiagentes", "prompts", "Claude Code", "Meta Advantage+", "Google Ads", "ChatGPT", "automação", "CLAUDE.md"],
+    seoDescription: "Como produzir milhares de variações de anúncios com Claude Code em 2026: subagentes especializados, prompts data-first e Routines automáticas para escalar criativos.",
+    seoKeywords: ["producao em massa criativos IA", "routines Claude Code anuncios", "multiagentes prompts marketing", "Meta Advantage tonelagem criativa", "automatizar anuncios Claude Code"]
   }
 ];
 
