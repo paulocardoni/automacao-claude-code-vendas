@@ -50,6 +50,8 @@ const IMAGE_MAP = {
   'morte-vaidade-dashboard-inflacao-atribuicional-claude-code': 'post29-inflacao-atribuicional-dashboard.png',
   'servidores-mcp-essenciais-ads-analytics-claude-code': 'post30-servidores-mcp-ads-analytics.png',
   'producao-massa-criativos-prompts-routines-agentes-2026': 'post31-producao-massa-criativos-routines.png',
+  'fim-terceirizacao-landing-pages-claude-code-github-cloudflare': 'post32-landing-page-claude-code-cloudflare.png',
+  'automatizar-dashboards-midia-claude-code-mcp': 'post33-dashboards-midia-automatizados.png',
 };
 
 function extractPosts(source) {

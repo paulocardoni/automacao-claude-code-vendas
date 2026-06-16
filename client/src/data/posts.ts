@@ -1204,6 +1204,110 @@ A produção em massa via prompts estruturados e rotinas automáticas reduz o te
     tags: ["criativos em massa", "routines", "multiagentes", "prompts", "Claude Code", "Meta Advantage+", "Google Ads", "ChatGPT", "automação", "CLAUDE.md"],
     seoDescription: "Como produzir milhares de variações de anúncios com Claude Code em 2026: subagentes especializados, prompts data-first e Routines automáticas para escalar criativos.",
     seoKeywords: ["producao em massa criativos IA", "routines Claude Code anuncios", "multiagentes prompts marketing", "Meta Advantage tonelagem criativa", "automatizar anuncios Claude Code"]
+  },
+  {
+    id: "32",
+    slug: "fim-terceirizacao-landing-pages-claude-code-github-cloudflare",
+    title: "O Fim da Terceirização de Landing Pages: Claude Code, GitHub e Cloudflare a Custo Zero",
+    excerpt: "Em 2026, criar Landing Pages deixou de ser gargalo técnico. Com Claude Code, você constrói, audita e publica páginas ultra-otimizadas do terminal ao Cloudflare Pages via GitHub em menos de 2 minutos — sem desenvolvedor e sem custo.",
+    tldr: "Em 2026, a criação de Landing Pages deixou de ser um 'pescoço de garrafa' técnico para se tornar uma commodity de infraestrutura. Utilizando o Claude Code, gestores de performance agora constroem, auditam e publicam páginas ultra-otimizadas diretamente do terminal para o Cloudflare Pages via GitHub, sem depender de desenvolvedores ou plataformas caras, reduzindo o ciclo de deploy de dias para menos de dois minutos.",
+    content: `## A Morte do Ciclo Lento de Produção
+
+Até pouco tempo, a operação de tráfego pago era refém de uma cadeia de dependências: o gestor desenhava a estratégia, o designer o layout, e o desenvolvedor o código. Qualquer alteração em um botão ou teste de uma nova "dobra" de conversão levava dias. Com a transição da "IA de Chat" para a "IA de Ação", o Claude Code agora interage diretamente com o sistema de arquivos local, criando estruturas de site e limpando o código para focar em Core Web Vitals de forma autônoma.
+
+## Os 3 Pilares da Autonomia de Performance
+
+### 1. Autonomia Total de Tracking
+
+O maior erro no rastreamento não é estratégico, é de sintaxe. O Claude Code assume a Engenharia de Marketing, inserindo tags de Google Tag Manager, Pixels e protocolos de API de Conversão (CAPI) diretamente no código. Isso garante a integridade do sinal de conversão sem perda de dados, fundamental para que o algoritmo de lances aprenda corretamente.
+
+### 2. Hospedagem Profissional a Custo Zero
+
+A integração entre Claude Code e ferramentas de desenvolvimento é nativa. O gestor pode comandar o agente para enviar a página a um repositório no GitHub e realizar o deploy automático via Cloudflare Pages.
+
+**Resultado:** Custo de infraestrutura zero, distribuição global e velocidades de carregamento em sub-segundos, o que impacta diretamente o índice de qualidade dos anúncios e a taxa de conversão.
+
+### 3. Cultura de Teste A/B em Tempo Real
+
+Se o CPC sobe ou o ROAS cai, a resposta precisa ser imediata. Através do terminal, você altera o ângulo de venda no arquivo de texto e o Claude Code executa o deploy em menos de dois minutos. O que antes era um processo burocrático torna-se um fluxo de iteração contínua.
+
+## O Novo Diferencial: De Programador a Arquiteto de CRO
+
+A IA nivelou a barreira técnica. Saber programar uma página não é mais um diferencial competitivo, mas uma tarefa braçal delegada ao agente. O verdadeiro valor do gestor em 2026 está em dominar:
+
+- **Arquitetura de Conversão (CRO):** Saber onde o usuário clica e por quê.
+- **Psicologia do Consumidor:** Criar ganchos que ressoem com as dores do público.
+- **Inteligência de Dados:** Alimentar o modelo com contextos de negócio claros via CLAUDE.md.
+
+## Dica Técnica: Seu "Manual de LP" no CLAUDE.md
+
+Para garantir que o Claude Code crie páginas sempre dentro do padrão da sua agência, adicione diretrizes específicas no seu arquivo de governança:
+
+- "Sempre priorize o carregamento LCP abaixo de 2.5 segundos"
+- "Utilize hierarquia de cabeçalhos H1, H2, H3 para facilitar a extração por motores de GEO"
+- "Inclua automaticamente o script de Consent Mode v2 no cabeçalho"
+
+## Conclusão
+
+Se a sua operação ainda depende de terceiros ou de plataformas pesadas para colocar uma página de vendas no ar, você está perdendo margem e velocidade. O profissional de elite em 2026 é um Gerente de Agentes que usa a tecnologia para executar o braçal e guarda sua energia para a estratégia que realmente vira o jogo do faturamento.
+    `,
+    imageUrl: "/blog-images/post32-landing-page-claude-code-cloudflare.png",
+    imageAlt: "Pipeline de deploy: Claude Code (terminal) → GitHub → Cloudflare Pages ao vivo em menos de 2 minutos com custo zero",
+    category: "Tutorial",
+    author: "Paulo Cardoni",
+    date: "2026-05-28",
+    readTime: 7,
+    tags: ["landing page", "Cloudflare Pages", "GitHub", "Claude Code", "CRO", "deploy", "Core Web Vitals", "CAPI", "GTM", "custo zero"],
+    seoDescription: "Como criar e publicar Landing Pages com Claude Code, GitHub e Cloudflare Pages em menos de 2 minutos e custo zero. Guia completo para gestores de performance.",
+    seoKeywords: ["landing page Claude Code gratis", "Cloudflare Pages deploy automatico", "CRO sem desenvolvedor IA", "landing page GitHub Claude", "deploy rapido pagina vendas"]
+  },
+  {
+    id: "33",
+    slug: "automatizar-dashboards-midia-claude-code-mcp",
+    title: "Adeus, Planilhas Manuais: Como Automatizar Dashboards de Mídia com Claude Code",
+    excerpt: "Gaste 4 minutos em vez de 21 horas semanais em relatórios. Com Claude Code e MCP, você extrai dados vivos de Meta, Google e GA4, processa métricas avançadas e gera dashboards HTML interativos com sentinela automático de anomalias.",
+    tldr: "Em 2026, a era de gastar segundas-feiras inteiras 'copiando e colando' dados acabou. Com o Claude Code e o protocolo MCP, você pode criar um motor de relatórios que extrai dados vivos das APIs (Meta, Google, GA4), processa métricas avançadas localmente e gera dashboards interativos em HTML em apenas 4 minutos — uma tarefa que antes consumia até 21 horas semanais.",
+    content: `## A Transição da "IA de Chat" para a "IA de Infraestrutura"
+
+O grande salto tecnológico de 2026 é a mudança da IA que apenas sugere textos para a IA de Ação. O Claude Code não apenas sugere como fazer um relatório; ele opera diretamente no seu terminal, lê seus arquivos locais e se conecta a serviços externos para executar planos de dados complexos de forma autônoma.
+
+## A Arquitetura do Dashboard Automatizado
+
+Para construir uma central de inteligência de mídia no seu computador, a estrutura recomendada utiliza scripts de extração dedicados e armazenamento local estruturado:
+
+1. **Conexão via MCP:** Utilize servidores Model Context Protocol para estabelecer pontes seguras com Google Ads, Meta Ads e GA4. Isso permite que o Claude consulte dados vivos com "frescor" de sub-minutos.
+2. **Scripts de Extração (Fetchers):** O Claude Code cria scripts em Python (na pasta \`fetchers/\`) que coletam termos de busca, custos por criativo e eventos de conversão diretamente das APIs.
+3. **Métricas de Elite (Sentinelas):** Vá além do básico. Automatize o cálculo da taxa de gancho (hook rate) e taxa de retenção para criativos em vídeo, cruzando esses dados com o ROAS real.
+
+## Transformando Dados em Visualização com Artifacts
+
+O diferencial visual do Claude em 2026 são os Artifacts. Você pode comandar o agente: *"Claude, analise os CSVs de performance desta semana e crie uma apresentação HTML interativa com gráficos de barras para o CTR e um dashboard de calor para o custo por conversão"*.
+
+Diferente de um dashboard estático, esses artefatos permitem:
+
+- **Visualização em Tempo Real:** Gráficos e tabelas interativas geradas instantaneamente no seu navegador.
+- **Exploração de Dados:** Uso da skill \`data-explorer\` para criar consultas SQL complexas através de linguagem natural.
+- **Design Profissional:** Utilização da skill \`frontend-design\` para que seus relatórios tenham uma estética de alta qualidade, prontos para serem apresentados a clientes exigentes.
+
+## O Sentinela de Performance: Monitoramento 24/7
+
+Ao configurar Routines (rotinas) no Claude Code, seu dashboard torna-se um organismo vivo. O sistema pode ser programado para escanear anomalias no CPC ou quedas de pixel todas as manhãs às 8h, enviando um alerta para o Slack se o ROI desviar mais de 15% da meta estabelecida no seu arquivo CLAUDE.md.
+
+**Dica de Growth:** Utilize o cruzamento sistemático de conversões para validar a integridade dos dados. O Claude Code pode calcular a razão de inflação (Conversões das Plataformas / Conversões Reais no CRM). Se esse número exceder 1.3, seu dashboard automatizado alertará que as plataformas estão superestimando os resultados.
+
+## Conclusão
+
+Dashboards manuais são o "custo de oportunidade" que impede sua agência de escalar. Ao delegar a infraestrutura de dados para o Claude Code, você recupera mais de 15 horas semanais para focar no que a IA ainda não faz: estratégia humana e julgamento de negócio.
+    `,
+    imageUrl: "/blog-images/post33-dashboards-midia-automatizados.png",
+    imageAlt: "Dashboard interativo de mídia gerado via Artifact: barras de CTR, CPC, ROAS e Hook Rate com sentinela automático de anomalias e KPIs 4min / -21h / 24/7",
+    category: "Produtividade",
+    author: "Paulo Cardoni",
+    date: "2026-05-29",
+    readTime: 7,
+    tags: ["dashboard", "relatórios", "MCP", "Claude Code", "Meta Ads", "Google Ads", "GA4", "Artifacts", "sentinela", "automação"],
+    seoDescription: "Como automatizar dashboards de mídia com Claude Code e MCP em 2026. De 21 horas para 4 minutos: APIs de Meta, Google e GA4 em HTML interativo com sentinela de anomalias.",
+    seoKeywords: ["automatizar dashboard midia Claude Code", "relatorio automatico Meta Google", "MCP dashboard analytics", "sentinela performance Claude Code", "planilha automatica IA marketing"]
   }
 ];
 
